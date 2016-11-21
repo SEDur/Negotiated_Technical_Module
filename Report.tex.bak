@@ -8,6 +8,7 @@
 %
 % Original author:
 % Frits Wenneker (http://www.howtotex.com)
+%
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
@@ -23,11 +24,12 @@
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
-\usepackage{url}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
 \usepackage{sectsty} % Allows customizing section commands
 \allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
 
-\usepackage{cite}
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
@@ -42,8 +44,8 @@
 \numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 \numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 
-\setlength\parindent{11pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
-\setlength{\parskip}{1em}
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -72,25 +74,16 @@
 
 \section{Introduction}
 
-Increases in available computing power, and great strides in research and development have brought a new surge of interest to virtual reality (VR) applications. 
-With the introduction of improved VR systems, such as Google Jump, Oculus, Vive and facebook360, using both high end computers, and mobile phone technology to provide immersive visualisation; Further steps are being taken to provide users with immersive sound environments~\cite{OculusCo41online}. 
-These environments may be created in an  attempt to emulate real places, or to characterise fictional places.\par
-
-A significant part of how humans identify with their surroundings, includes the perception of the reverberant characteristics of the surrounding area~\cite{rumsey2012spatial}. 
-Cues such as the timing and strength of early reflections, allow humans to perceive source size and direction, as well as how far from the nearest boundaries the perceivers are. 
-Some early stage VR development platforms provide a very simplified model for how reverberation behaves in an audio system, and may be an oversimplification when attempting to create an immersive audio experience.\par
-
-The aim of this report is to introduce a testing method, to allow for the evaluation of different reverberation methods with respect to immersive VR audio. 
-Initially, some of the theory behind reverberation perception will be discussed. Following this, a brief discussion of current spatial audio techniques will be discussed. 
-Finally, a testing framework will be proposed, in which subjects will evaluate different VR environments and reverb algorithms.
+Increases in available computing power, and great strides in research and development have brought a new surge of interest to virtual reality (VR) applications. With the introduction of improved VR systems using both high end graphics processors and mobile phone technology, next logical steps are being taken to provide users with complementary immersive sound environments. These environments may be created in an  attempt to emulate real places, or to characterise fictional places.\\
+A significant part of how humans identify with their surroundings is from the perception of the reverberant characteristics of the space they are in. Cues such as the timing and strength of early reflections, allow humans to perceive source size and direction, as well as how far from the nearest boundaries the perceivers are. Some early stage VR development platforms provide a very simplified model for how reverberation behaves in an audio system, and may be an oversimplification when attempting to create an immersive audio experience.\\ 	The aim of this report is to introduce a testing method, to allow for the evaluation of different reverberation methods with respect to immersive VR audio. Initially, some of the theory behind reverberation perception will be discussed. Following this, a brief discussion of current spatial audio techniques will be discussed. Finally, a testing framework will be proposed, in which subjects will evaluate different VR environments and reverb algorithms.
 
 %------------------------------------------------
 \section{Reverberation \&\ Perception}
 %---------------------------------------------
 \subsection{Reverberation}
 
-Reverberation in a simplistic description, is the diffuse scattering of sound energy in a space due to the reflection of that energy from boundaries. Specifically, the level of these reflections are such as to balance in level with the ambient noise floor, at or beyond the critical distance from a source. That is in contrast with strong early or late reflections, however these strong reflections are of significant interest in this study. It is also worth noting that in this description, reverberation level is a function of source level, distance (and therefore time), and the absorption of sound energy in the problem geometry~\cite{Everest2009}.\\
-A basic mathematical relationship between room characteristics, source level and reverberation time can be found below:\\
+Reverberation in a simplistic description, is the diffuse scattering of sound energy in a space due to the reflection of that energy from boundaries. Specifically, the level of these reflections are such as to balance in level with the ambient noise floor, at or beyond the critical distance from a source. That is in contrast with strong early or late reflections, however these strong reflections are of significant interest in this study. It is also worth noting that in this description, reverberation level is a function of source level, distance (and therefore time), and the absorption of sound energy in the problem geometry.\\
+The mathematical relationship between room characteristics, source level and reverberation time can be found below:\\
 \begin{center}
 $RT_{60} = \frac{0.161 A}{Sa}$\\
 \end{center}
@@ -160,11 +153,8 @@ Some Text.\\
 \end{split}					
 \end{align}
 
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+
 %----------------------------------------------------------------------------------------
-
-\section{References}
-
-\bibliography{mylibrary}{}
-\bibliographystyle{plain}
 
 \end{document}

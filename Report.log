@@ -1,31 +1,30 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  21 NOV 2016 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.5)  21 NOV 2016 20:37
 entering extended mode
 **./Report.tex
 (Report.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2016/06/14 v3.21 KOMA-Script document class (article)
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
 Package: scrkbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
 Package: scrbase 2016/06/14 v3.21 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2016/06/14 v3.21 KOMA-Script package (loading files)
 
 Package scrlfile, 2016/06/14 v3.21 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-)))
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.sty
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2016/06/14 v3.21 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
@@ -42,12 +41,11 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2052.
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize11pt.cl
-o
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
 File: scrsize11pt.clo 2016/06/14 v3.21 KOMA-Script font size class option (11pt
 )
 )
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
 Package: typearea 2016/06/14 v3.21 KOMA-Script package (type area)
 
 Package typearea, 2016/06/14 v3.21 KOMA-Script package (type area)
@@ -98,24 +96,24 @@ LaTeX Info: Redefining \textsubscript on input line 4036.
 \c@table=\count87
 Class scrartcl Info: Redefining `\numberline' on input line 5049.
 \bibindent=\dimen102
-) ("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fourier.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fourier.sty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -130,7 +128,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -197,7 +195,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fourier-orns.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fourier-orns.sty"
 Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
 )
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
@@ -295,20 +293,21 @@ LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup5
-) ("D:\MSC\Research Methose\MiKTeX 2.9\tex\generic\babel\babel.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
@@ -317,24 +316,24 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen104
 ))
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
@@ -375,7 +374,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
@@ -383,7 +382,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
 )
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -395,11 +394,11 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip60
 \dth@everypar=\toks25
 )
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count101
 )
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\sectsty\sectsty.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
@@ -411,7 +410,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              Nevertheless, using requested
 (scrartcl)              package `fancyhdr' on input line 34.
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip61
 \f@ncyO@elh=\skip62
@@ -441,16 +440,14 @@ LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 67.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 67.
 
-
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutm.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 67.
 
-
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmsfutm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
 LaTeX Font Info:    ... okay on input line 67.
@@ -458,31 +455,31 @@ LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for FMX+futm on input line 67.
 
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmxfutm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Try loading font information for T1+futs on input line 67.
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\t1futs.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 70.
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 70
 .
 
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\fmlfutmi.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -499,12 +496,12 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 70.
 LaTeX Font Info:    Try loading font information for U+msa on input line 70.
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
-("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
@@ -514,7 +511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 [1
 
 
-{C:/Users/Simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 10.07397pt on input line 88.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -539,28 +536,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 126
 .
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\ts1futs.fd"
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 128.
-
-[2] [3] (Report.aux) ) 
+ [2] [3]
+(Report.aux) ) 
 Here is how much of TeX's memory you used:
  4755 strings out of 493334
- 74715 string characters out of 3136241
+ 74328 string characters out of 3136672
  314858 words of memory out of 3000000
  8198 multiletter control sequences out of 15000+200000
  94440 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,14n,51p,8819b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontn
-ame/8r.enc}<C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourie
-r/fourier-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
-/fourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/u
-topia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/p
-utr8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.
-pfb>
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.en
+c}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
 Output written on Report.pdf (3 pages, 45131 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)

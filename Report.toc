@@ -1,0 +1,14 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}Ambisonic Spatial Audio for Virtual Reality}{5}
+\contentsline {subsubsection}{\numberline {2.0.1}Spatial Perception}{5}
+\contentsline {subsubsection}{\numberline {2.0.2}Ambisonics}{7}
+\contentsline {section}{\numberline {3}Reverberation \&\ Perception}{8}
+\contentsline {subsection}{\numberline {3.1}Reverberation}{8}
+\contentsline {subsection}{\numberline {3.2}Perception of Reflections}{10}
+\contentsline {subsection}{\numberline {3.3}Reverberation Algorithms}{11}
+\contentsline {section}{\numberline {4}Experiment Protocol}{11}
+\contentsline {section}{\numberline {5}Lists}{12}
+\contentsline {subsection}{\numberline {5.1}Example of list (3*itemize)}{12}
+\contentsline {subsection}{\numberline {5.2}Example of list (enumerate)}{12}
+\contentsline {section}{\numberline {6}References}{13}

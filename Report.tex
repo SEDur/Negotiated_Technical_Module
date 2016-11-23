@@ -18,7 +18,6 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[paper=a4, fontsize=10pt, font=arial]{scrartcl} % A4 paper and 11pt font size
-
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
 \usepackage[english]{babel} % English language/hyphenation
@@ -26,6 +25,7 @@
 \usepackage{url}
 \usepackage{sectsty} % Allows customizing section commands
 \allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+%\graphicspath{ {figures/} }
 \usepackage{geometry}
 \usepackage{float}
 \usepackage{graphicx}
@@ -60,8 +60,14 @@
 \title{	
 \normalfont \normalsize 
 \textsc{University of Derby, Department of Electronics, Mathematics \&\ Computing} \\ [25pt] % Your university, school and/or department name(s)
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\textwidth]{impulseresponse.jpg}
+\centering
+\caption{An impulse response with first reflections~\cite{Mourik2013}}
+\end{figure}
 \horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
-\huge The Impact of Reverberation Techniques on Immersion in Spatial Audio for Virtual Reality \\ % The assignment title
+\huge An Experimental Method to Quantify the Impact of Reverb Processing Techniques on Immersive Spatial Audio for Virtual Reality \\ % The assignment title
 \horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
 }
 
@@ -74,12 +80,28 @@
 \maketitle % Print the title
 
 %----------------------------------------------------------------------------------------
+%	Contents
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Figures
+%----------------------------------------------------------------------------------------
+
+\listoffigures
+
+\newpage
+
+%----------------------------------------------------------------------------------------
 %	Abstract
 %----------------------------------------------------------------------------------------
 
-\section{Abstract}
+%\section{Abstract}
 
-\newpage
+%\newpage
 
 %----------------------------------------------------------------------------------------
 %	Introduction
@@ -93,7 +115,7 @@ These environments may be created in an  attempt to emulate real places, or to c
 
 A significant part of how humans identify with their surroundings, includes the perception of the reverberant characteristics of the surrounding area~\cite{rumsey2012spatial}. 
 Cues such as the timing and strength of early reflections help humans to localize sound sources, as well as how far from the nearest boundaries the perceivers are. 
-Some VR application development platforms provide a simplified model for how reverberation behaves in an audio system (negating early reflections), and may be an oversimplification when attempting to create an immersive audio experience that is tending towards the suspension of disbelief\footnote{This report is not intended to explore or discuss the artistic concept of the suspension of disbelief. For a discussion on this, please refer to CITE}.\par
+Some VR application development platforms provide a simplified model for how reverberation behaves in an audio system (negating early reflections), and may be an oversimplification when attempting to create an immersive audio experience that is tending towards the suspension of disbelief\footnote{This report is not intended to explore or discuss the artistic concept of the suspension of disbelief. For a discussion on this, please refer to Holland~\cite{Holland2003}}.\par
 
 The aim of this report is to introduce a testing method, to allow for the evaluation of different reverberation methods with respect to immersive VR audio. 
 Initially, some theory behind reverberation and perception will be discussed. Following this, a brief description of current spatial audio techniques will be given. 
@@ -101,12 +123,52 @@ Finally, a testing framework will be proposed, in which subjects will evaluate d
 
 
 \newpage
+
+%------------------------------------------------
+\section{Ambisonic Spatial Audio for Virtual Reality}
+\subsubsection{Spatial Perception}
+
+Though  research into spatial audio for VR may have flourished in recent past, the foundation of localization theory remains based on the concepts explored by Rayleigh in 1907~\cite{Blauert1997}. Continued research into the field as matured and evolved understanding of these concepts, and for an in-depth review of auditory localization concepts, please review Blauert~\cite{Blauert1997}. Lateralization is the term given to he human capacity to binaurally (with two ears) localize sounds laterally in the plane of the ears, and is determined by interaural time differences (ITD), phase differences, interaural level differences(ILD), and the physical listening apparatus itself (pinnae, head shape, torso etc).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{itdexample.jpg}
+\centering
+\caption{A basic model diagram of the ITD from a source to a listener given by $\frac{r(\theta + sin \theta)}{\textit{c}}$ ~\cite{rumsey2012spatial}}
+\end{figure} 
+
+The ITD is the time difference between a sound arriving at each ear (not to be confused with phase), and is an important cue for localizing at frequencies below the wavelength relative to the size of a listeners head. The phase differences relates tothe asynchronous behaviour of sound diffracting around the head also provides temporally motivated localization cues~\cite{Aaronson2014}. At wavelengths larger than at least half the circumference of the head, sound waves can defract around the head. Above this frequency humans become more dependent of ILDs and phase differences. The ILD is the level difference between ears of a sound, and is more critical to localization of shorter wavelengths where head and torso shadowing is dominant. The pinnae and torso have a distinct filtering affect that assists humans in localizing sources in the median plane~\cite{Blauert1997}~\cite{Begault1995}~\cite{Wiggins2004}, another benefit of this filtering is that humans are able to some degree overcome the 'cone of confusion' that would occur when a sound source is in a position that would otherwise produce the same ITD and ILD as another position (illustrated below).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{coneofconfusion.jpg}
+\centering
+\caption{A diagram example of the cone of confusion. If a source were in location a, it would have the same ITD and ILD and thus would be ambiguous to position b. Positions x and y share a similar relationship in the vertical plane as oposed to the lateral plane of a and b~\cite{Begault1995}}
+\end{figure}
+
+The total system of localization effects from source to the entrance of the receivers ear canal(s) can be lumped into a head-related transfer function (HRTF), and can be translated into a head-related impulse response (HRIR). Upon synthesizing an HRIR filter, it is possible to reproduce audio with binaural cues over headphones or an appropriate speaker system, that gives listeners the impression of virtual source localization (and ideally externalization). 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\textwidth]{virtualizationoverspeakers.JPG}
+\centering
+\caption{A diagram of a loudspeaker system set up for virtualization~\cite{rumsey2012spatial}}
+\end{figure}
+
+Auditory Scene Analysis(ASA) is the term given to the brains process of group and compartmentalizing sounds into components of the auditory 'scene'~\cite{rumsey2012spatial}. Through a complex process of continuous analysis and adaptation, the brain is able to accurately differentiate sounds into specific details such as how large a room is, what the wall materials are or which direction a complex source such as an oboe is facing. Bregman~\cite{Bregman1994} suggests that a key part of the ASA process is learned via auditory steaming, which is essentially spectrogram analysis, comparing time and frequency based patterns to those already known, and associating those patterns as another object in the scene. 
+
+
+\subsubsection{Ambisonics}
+
+For many of the new virtual reality platforms, ambisonics has become the decoding format of choice for content. This choice may be due to the flexability of a system that can encode and decode arbitrary numbers of channels, while maintaining a relatively high degree of spatial data. For a review of various 'spatial' audio system formats, please refer to~\cite{Wiggins2004}. Many of the newer VR platforms rely on headphones as the preferred audio system format. This may be in part due to the difficulty in producing active moving HRTFs for individual listeners over loudspeaker, though research in this area is continually improving CITE. 
+\newpage
 %------------------------------------------------
 \section{Reverberation \&\ Perception}
 %---------------------------------------------
 \subsection{Reverberation}
 
-Reverberation (in a simplistic description), is the steady-state of diffusely scattered sound energy in a space due to the reflection of that energy from boundaries to a high order. Specifically, the amplitude of these reflections are such as to balance in amplitude with the steady state of the acoustic system, at or beyond the critical distance from a source (a classic analogy is given by Everest)~\cite{Everest2009}. 
+The reverberant sound field is the steady-state of diffusely scattered sound energy in a space due to the reflection of that energy from boundaries to a high order. 
+Specifically, the amplitude of these reflections are such as to balance in amplitude with the steady state (source - decay) of the acoustic system, at or beyond the critical distance from a source (a classic analogy is given by Everest)~\cite{Everest2009}. 
 
 \begin{figure}[H]
 \centering
@@ -115,7 +177,11 @@ Reverberation (in a simplistic description), is the steady-state of diffusely sc
 \caption{A conceptualisation of direct and reflected sound~\cite{Everest2009}}
 \end{figure}
 
-That is in contrast with strong reflections that may occur before excitation of the reverberant field (early reflections), or may occur later and above the steady state amplitude (echos)~\cite{Everest2009}. Early and strong reflections are of significant interest in this study, due to the cues humans recieve from perception of them. A reverberant sound field is often quantified by the decay time from steady state, to an amplitude of the steady state level $-60{dB}$. This is commonly described as the $RT_{60}$, and was proposed by WC Sabine in 1900. A more comprehensive description of reverberation and overview of the associated parameters is given by Rossing~\cite{rossing2007springer}. Further to this, the ratio of direct sound from a source to the amplitude of the reverberant field at any place in the sound field is also of interest~\cite{Begault1995}. A third parameter of interest is the clarity score, that is determined by the ratio between direct sound and an integration of the sound received directly from the source for some abritrary time (commonly 80ms). 
+That is in contrast with low order reflections that may occur before the sound contributes to the reverberant field (early reflections), or may occur later and above the steady state amplitude (echos)~\cite{Everest2009}. 
+Early and strong reflections are of significant interest in this study, due to the cues humans receive from perception of them. 
+A reverberant sound field is often quantified by the decay time from steady state, to an amplitude of the steady state level $-60{dB}$. This is commonly described as the $RT_{60}$ and was proposed by WC Sabine in 1900. For a discussion of reverb time calculation, please see Everest~\cite{Everest2009} page 153.
+The use of $RT_{60}$ as the preferred metric of decay time is valid, assuming that the acoustics system is linear and time-invariant.
+A more comprehensive description of reverberation and overview of the associated parameters is given by Rossing~\cite{rossing2007springer}. 
 
 \begin{figure}[H]
 \centering
@@ -132,11 +198,41 @@ That is in contrast with strong reflections that may occur before excitation of 
 \end{subfigure}
 \caption{Graphics pertaining to quantification of reverberant sound ~\cite{rossing2007springer}}
 \end{figure}
+\newpage
+
+Further to this, the ratio of direct sound amplitude from a source to the amplitude of the reverberant field at any place in the sound field is also of interest~\cite{Begault1995} and is described as the \textbf{D}irect to \textbf{R}everberant (D/R) enegry ratio. This can be quantified in terms of amplitude at a point in the sound field using the modified Hopkins-Stryker equation~\cite{davis2006sound}:\\ 
+\begin{center}
+$L_T = L_W + 10 log \left( \frac{QMe}{4\pi D_{x}^2} + \frac{4N}{S \overline{a} M a}\right) + K $\\
+\end{center}
+where:
+\begin{enumerate}
+\item $L_T =$ total sound pressure
+\item $L_W =$ sound power level of source
+\item $\frac{QMe}{4\pi D_{x}^2}$ is a description of the sound source direct radiation properties
+\item $\frac{4N}{S \overline{a} M a}$ is a description of the reverberant field properties
+\item $K = \frac{\rho \textit{c}}{400}$ relating to the transfer of sound through air
+\end{enumerate}
+
+This equation is particularly useful, as it can be rearranged to calculate important parameters such as the amplitude of the direct and reverberant sound fields, but also presents the intrinsic relationship between source parameters, receiver location and sound field geometry(including sound absorption properties etc.).
+The D/R ratio is intrinsically linked in this equation to the \textbf{critical distance}$(D_c)$, the distance from sound source at which the reverberant sound field is equal in amplitude to direct sound energy from the source. At distances beyond $D_c$ the reverberant sound field dominates the direct sound in amplitude.
+A third parameter of interest is the clarity score, that is determined by the ratio between direct sound and an integration of the sound received directly from the source for some arbitrary~\cite{Begault1995} time (commonly 80ms). 
+Another parameter of note in calculation of the reverberant nature of a geometry is the mean free path (\textbf{MFP}), that is the average distance between reflections in space~\cite{davis2006sound}:
+\begin{center}
+$ \textbf{MFP} = 4 \frac{Volume}{Surface area}$
+\end{center}
+As a wave must propagate further between reflective surfaces, the amplitude of higher order reflections is increasingly diminished. This is compounded by the absorption characteristics of the boundaries of the geometry. Thus, a higher mean free path may result in a reduction in the amplitude of a reverberant tail, compared to a much smaller space with the similar absorption characteristics. 
+
+\newpage
 
 \subsection{Perception of Reflections}
-There is a plethora of research and understanding of the objective quantification of reverberation~\cite{rossing2007springer}, less so about the subjective effects~\cite{Karjalainen2001} beyond the seminal studies of early reflections and level threshold shifts~\cite{Haas1972}. It may be argued that many facets of human auditory perception relate in some way to the perception of reverberation, the concepts of interest in this paper are those linked with localisation and perception of the auditory scene. Within these concepts are Haas/Precedence effect, and auditory masking.
+There is a plethora of research and understanding of the objective quantification of reverberation~\cite{rossing2007springer}, less so about the subjective effects~\cite{Karjalainen2001} beyond the seminal studies of early reflections and level threshold shifts by early pioneers (even before Haas)~\cite{Haas1972}. 
+It may be argued that many facets of human auditory perception relate in some way to the perception of reverberation, the concepts of interest in this paper are those linked with localisation and perception of the auditory scene. 
+Within these concepts are Haas/Precedence effect, and auditory masking.
 
-The Haas effect is described as the first wave-front perceived by a listener, determines the source localisation in an auditory scene. The following reflections received within a 0.7 to 35mS window are integrated with the initial sound, such that the sound is given the impression of increased loudness, an increase in source width and tonal shifts of the percieved sound~\cite{Everest2009}. Beyond 40mS, following strong reflections are heard as echos. Begault~\cite{Begault1995} suggests that the precedence effect is the intrinsic mechanism  of the human auditory system, that allows for the localization of sound sources on a reverberant sound-field. Begault also suggests that there is a link between inter-aural time difference(ITD) perception for lateralization, and changes in apparent sound source 'width', suggesting a 5us to 1.5ms ITD 'window' within which a sound sources lateral location is determined. Another ascpet of note, is that if a sound source is occluded and the reflected sound is louder than the direct sound, the precedence effect is diminished~\cite{Wiggins2004}.
+The Haas effect is described as the first wave-front perceived by a listener, determines the source localisation in an auditory scene. The following reflections received within a 0.7 to 35mS window are integrated with the initial sound, such that the sound is given the impression of increased loudness, an increase in source width and tonal shifts of the percieved sound~\cite{Everest2009}. 
+Beyond 40mS, following strong reflections are heard as echoes. 
+Begault~\cite{Begault1995} suggests that the precedence effect is the intrinsic mechanism  of the human auditory system, that allows for the localization of sound sources on a reverberant sound-field. 
+Begault also suggests that there is a link between inter-aural time difference(ITD) perception for lateralization, and changes in apparent sound source 'width', suggesting a 5us to 1.5ms ITD 'window' within which a sound sources lateral location is determined. Another ascpet of note, is that if a sound source is occluded and the reflected sound is louder than the direct sound, the precedence effect is diminished~\cite{Wiggins2004}.
 
 \begin{figure}[H]
 \centering
@@ -144,13 +240,14 @@ The Haas effect is described as the first wave-front perceived by a listener, de
 \caption{A plot of the window regions of precedence between reflection 'level' and delay~\cite{Everest2009}}
 \end{figure}
 
-Sigfried Linkwitz~\cite{Linkwitz2015} also discussed the idea that human perception of sound in enclosed spaces is powerful enough that given an appropriate sound source, a person can subconsciously differentiate between reflected sounds and the stereo sound-stage created by two sound sources.  The link is with auditory scene analysis. The argument is that more realistic reverberation modelling may provide a more realistic scene for our brains the analyse. 
+Many of the texts referenced in this section of the report do not discuss auditory masking in great detail\footnote{Masking is noted several times by Begault, but not discussed}, though it may be of considerable importance when considering perception of noise-like sound.
+Auditory masking can be conceptualised as the time-envelope dependent blocking of new sounds being perceived, due to some other sound having already excited the inner ear. 
+Specifically, sounds having already excited a portion of the bascilar membrane are thus stopping other sounds from being perceived as separate, that would otherwise excite the same portion of the bascilar membrane~\cite{Everest2009}. 
+The basilar membrane is often regarded as to be discretized into critical bands or equivalent rectangular bandwidths (ERB), and these bandwidths are different depending on sound level as well as centre frequency. 
+General works by Moore ~\cite{Moore1996} should be reviewed for a more in-depth discussion of masking. The relevance of masking in this context, is that continuous noise is often used as a test signal in masking experiments, and steady-state reverberation may be similar to noise and thus cause masking of reflections and general reverberation. As such, creation of realistic reverberation may be important for masking in a natural way as opposed to having a spectrally dense or high amplitude artificial reverb that may cause excessive masking.
 
-Many of the texts referenced in this section of the report do not discuss auditory masking in great detail\footnote{Masking is noted by Begault, but not discussed}, though it may be of considerable importance when considering perception of noise-like sound. Auditory masking can be conceptualised as the time-envelope dependent blocking of new sounds being perceived, due to some other sound having already excited the inner ear. Specifically, sounds having already excited a portion of the bascilar membrane are thus stopping other sounds from being perceived as separate, that would otherwise excite the same portion of the bascilar membrane~\cite{Everest2009}. The bascilar membrane is often regarded as to be discretized into critical bands or equivalent rectangular bandwidths (ERB), and these bandwidths are different depending on sound level as well as centre frequency. General works by Moore ~\cite{Moore1996} should be reviewed for a more in-depth discussion of masking. The relevance of masking in this context, is that continuous noise is often used as a test signal in masking experiments, and steady-state reverberation may be similar to noise and thus cause masking of reflections and general reverberation. As such, creation of realistic reverberation may be important for masking in a natural way as opposed to having a spectrally dense or high amplitude artificial reverb that may cause excessive masking.
+Sigfried Linkwitz~\cite{Linkwitz2015} also discussed the idea that human perception of sound in enclosed spaces is powerful enough that given an appropriate pair of sound sources, a person can subconsciously differentiate between reflected sounds and the stereo sound-stage created by the two sound sources. This is not disimilar to abstractions made in much of the literature such as Begault~\cite{Begault1995} or Wiggins~\cite{Wiggins2004}, who describe typical scenarios pertaining to walking into large spaces and using cues from reflections to determine that the space they have entered is actually large. The relevant link between reverberation and associated perceptual faculties is with auditory scene analysis. Reverberation perception (particularly precedence) is intrinsically linked to humans capacity to analyse the auditory characteristics of their surroundings. This is compounded by Begault~\cite{Begault1995} who notes the significant breadth of reverberation research for concert hall acoustics, suggesting that the quality of reverberation may be an important part of audio for VR and multimedia. The argument is that more realistic reverberation modelling may provide a more realistic scene for our brains to analyse. 
 
-Echolocation\\
-
-Timing \&\ Intensity\\
 
 Concert Hall Reverberation\\
 
@@ -165,28 +262,6 @@ Derived Reverberation\\
 Geometric Modelling\\
 
 Wave Modelling\\
-
-%------------------------------------------------
-\section{Ambisonic Spatial Audio for Virtual Reality}
-\subsubsection{Audio Spatial Perception}
-
-Spatial Cues\\
-ITD\\
-
-ILD\\
-
-HRTFS\\
-
-Direct to Reverberant Ratio\\
-
-Precedence\\
-
-Auditory Scene Analysis
-
-\subsubsection{Ambisonics}
-%\paragraph{Heading on level 4 (paragraph)}
-
-the concept of ambisonics\\
 
 
 \section{Experiment Protocol}
@@ -220,7 +295,7 @@ Karjalainen \textit{et al}~\cite{Karjalainen2001} undertook a study into the per
 \end{itemize}
 
 %------------------------------------------------
-
+%\paragraph{Heading on level 4 (paragraph)}
 \subsection{Example of list (enumerate)}
 \begin{enumerate}
 \item First item in a list 

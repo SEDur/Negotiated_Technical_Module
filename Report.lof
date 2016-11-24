@@ -1,8 +1,8 @@
 \select@language {english}
 \contentsline {figure}{\numberline {0.1}{\ignorespaces An impulse response with first reflections~\cite {Mourik2013}\relax }}{1}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A basic model diagram of the ITD from a source to a listener given by $\frac {r(\theta + sin \theta )}{\textit {c}}$ ~\cite {rumsey2012spatial}\relax }}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A diagram example of the cone of confusion. If a source were in location a, it would have the same ITD and ILD and thus would be ambiguous to position b. Positions x and y share a similar relationship in the vertical plane as oposed to the lateral plane of a and b~\cite {Begault1995}\relax }}{6}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A diagram of a loudspeaker system set up for virtualization~\cite {rumsey2012spatial}\relax }}{6}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A conceptualisation of direct and reflected sound~\cite {Everest2009}\relax }}{8}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Graphics pertaining to quantification of reverberant sound ~\cite {rossing2007springer}\relax }}{8}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A plot of the window regions of precedence between reflection 'level' and delay~\cite {Everest2009}\relax }}{10}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A basic model diagram of the ITD from a source to a listener given by $\frac {r(\theta + sin \theta )}{\textit {c}}$ ~\cite {rumsey2012spatial}\relax }}{4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A diagram example of the cone of confusion. If a source were in location a, it would have the same ITD and ILD and thus would be ambiguous to position b. Positions x and y share a similar relationship in the vertical plane as oposed to the lateral plane of a and b~\cite {Begault1995}\relax }}{5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A diagram of a loudspeaker system set up for virtualization~\cite {rumsey2012spatial}\relax }}{5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A conceptualisation of direct and reflected sound~\cite {Everest2009}\relax }}{7}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Graphics pertaining to quantification of reverberant sound ~\cite {rossing2007springer}\relax }}{7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A plot of the window regions of precedence between reflection 'level' and delay~\cite {Everest2009}\relax }}{9}

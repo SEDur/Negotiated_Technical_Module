@@ -86,7 +86,7 @@
 
 \tableofcontents
 
-\newpage
+%\newpage
 
 %----------------------------------------------------------------------------------------
 %	Figures
@@ -128,7 +128,7 @@ Finally, a testing framework will be proposed, in which subjects will evaluate d
 
 %------------------------------------------------
 \section{Ambisonic Spatial Audio for Virtual Reality}
-\subsubsection{Spatial Perception}
+\subsection{Spatial Perception}
 
 Though  research into spatial audio for VR may have flourished in recent past, the foundation of localization theory remains based on the concepts explored by Rayleigh in 1907~\cite{Blauert1997}. Continued research into the field as matured and evolved understanding of these concepts, and for an in-depth review of auditory localization concepts, please review Blauert~\cite{Blauert1997}. Lateralization is the term given to he human capacity to binaurally (with two ears) localize sounds laterally in the plane of the ears, and is determined by interaural time differences (ITD), phase differences, interaural level differences(ILD), and the physical listening apparatus itself (pinnae, head shape, torso etc).
 
@@ -165,9 +165,7 @@ The total system of localization effects from source to the entrance of the rece
 \end{figure}
 
 Auditory Scene Analysis(ASA) is the term given to the brains process of group and compartmentalizing sounds into components of the auditory 'scene'~\cite{rumsey2012spatial}. Through a complex process of continuous analysis and adaptation, the brain is able to accurately differentiate sounds into specific details such as how large a room is, what the wall materials are or which direction a complex source such as an oboe is facing. Bregman~\cite{Bregman1994} suggests that a key part of the ASA process is learned via auditory steaming, which is essentially spectrogram analysis, comparing time and frequency based patterns to those already known, and associating those patterns as another object in the scene. 
-
-
-\subsubsection{Ambisonics for virtual reality}
+\subsection{Ambisonics for virtual reality}
 
 Many of the recent VR systems consist of a viewing headset that may be powered by a mobile phone, a games console or a computer. The headsets viewing system provides a stereoscopic vision of a 3d environment that is linked to a head tracking interface, allowing the user to explore the 'immersive' visual environment in 3d. For many of the new virtual reality platforms, ambisonics has become the signal format of choice. This choice may be due to the flexability of a system that can encode and decode arbitrary numbers of input and output channels, while maintaining a high degree of spatial data. Another benefit may be the compatability of ambisonics with concepts such as object based audio CITE. For a review of various 'spatial' audio system formats, please refer to~\cite{Wiggins2004}. Many of the newer VR platforms rely on headphones as the preferred audio system format. This may be in part due to the difficulty in producing HRTFs for multiple listeners over loudspeaker, though research in this area is continually improving~\cite{Galvez2016}. Another benefit of the use of headphones is that head tracking can be applied to HRTFs to improve the spatial audio quality~\cite{Inanaga1995} in a relatively discrete package.   \\
 
@@ -263,77 +261,45 @@ General works by Moore ~\cite{Moore1996} should be reviewed for a more in-depth 
 Sigfried Linkwitz~\cite{Linkwitz2015} also discussed the idea that human perception of sound in enclosed spaces is powerful enough that given an appropriate pair of sound sources, a person can subconsciously differentiate between reflected sounds and the stereo sound-stage created by the two sound sources. This is not disimilar to abstractions made in much of the literature such as Begault~\cite{Begault1995} or Wiggins~\cite{Wiggins2004}, who describe typical scenarios pertaining to walking into large spaces and using cues from reflections to determine that the space they have entered is actually large. The relevant link between reverberation and associated perceptual faculties is with auditory scene analysis. Reverberation perception (particularly precedence) is intrinsically linked to humans capacity to analyse the auditory characteristics of their surroundings. This is compounded by Begault~\cite{Begault1995} who notes the significant breadth of reverberation research for concert hall acoustics, suggesting that the quality of reverberation may be an important part of audio for VR and multimedia.\\ 
 The argument is that more realistic reverberation modelling may provide a more realistic scene for our brains to analyse. In fact it has been shown by Corey~\cite{Corey2002} that for a 5 channel system, adding simulated early reflections are enough to allow listeners to accurately localize sound sources with greater certainty. However, in a similar way some of the VR packages, Corey's early reflections were generated using an image source method. As note in acoustic modelling research such has those by Mourik and Murphy~\cite{Mourik2013}, geometric or ray based simulations do not produce accurate results at low frequencies. The image based method described by Begault~\cite{Begault1995}, and used by Corey is also only usable for rectangular spaces and is limited further. Some reverb calculation methods are discussed in the next section.
 
-\subsection{Reverberation Algorithms}
+\subsection{Synthetic Reverberation Algorithms}
+\subsubsection{filter based reverb}
 
-Derived Reverberation\\
+A relatively simple electronic method of simulating reverberation is that derived by a feedback loop. An analogy of this system is that of a tape deck with a looped reel of tape~\cite{Begault1995}. A delay presented between the read and write heads of the tape deck, with the write head writing not only new signals to the tape but an attenuated version of the signal read by the read head producing a decaying echo. In the frequency domain, such a system presents a comb filtered response as a version of a signal is interfering with itself but staggered in time.\\ 
 
-Geometric Modelling\\
+When a series of these reverberation filters are cascaded together with varying delay times, it is possible to create a slightly metallic sounding reverb CITE FREVERB. An improvement to this method is to add a signal to itself with the same delay, however one version of the signal has been passed through a flex frequency all-pass filter that warps the phase response of the signal. A series of these devices cascaded together will also produce a reverb effect.\\
 
-Combined Geometric and derived reverb.
+A third method of creating a reverb effect is to convolve a signal with the finite impulse response (FIR) impulse response of the system to be emulated, or with a decaying 'shaped' noise function. This process in discrete digital systems involves multiplying a current sample and $n-1$ previous samples with $n$ coefficients, thus adding varying amounts of the previous portion of the signal to the 'current' sample. This method is also required for digitally applying the measured impulse response of a real space to some audio for simulation purposes, and the same again for a modelled or calculated impulse response using one of the modelling techniques discussed below. 
 
-Wave Modelling\\
+\subsubsection{modelling}
+Geometric based modelling methods are those based on assumptions of plane wave propagation and ray based geometry to calculate the time of flight and  of some sound between a source and a receiver. These methods include image source modelling, ray tracing, cone tracing and various other variations~\cite{Elorza2005}. This report will focus on the previously mentioned image source technique.\\
 
+The image source(IM) technique uses a rectilinear geometry with some basic frequency-independent absorption characteristic, and conceptually multiplies that geometry in symmetric fashion around the origin geometry. The effective time of flight and number of virtual boundaries passed indicates some absorption, reflection order and time delay between the source and receiver. Thus, the impulse response of the geometry can be calculated with accuracy up to the order of the simulation i.e. how many times the geometry is mirrored. This method cannot handle an irregularly shaped geometry, any obstacles, and assumes that the ray represents part of a plane wave whose wavelength is much smaller than any part of the geometry. This method is however relatively simple, fast to compute and is potentially a good method for calculating arrival times and amplitudes of early reflections for a binaural pair of receivers down to the rooms Schroeder frequency.
 
+Using the calculated reverb decay time $RT_{60}$ to set up an IIR reverb and the early reflection results from an IM simulation, it is potentially possible to combine the two responses to create and artificial reverberation for VR environments that provides early reflections for localization, but is not to such a high order as to become computationally expensive. \\
+
+Wave based modelling methods directly model spaces by calculating solutions to a discretized partial differential equation across the geometry. For linear and room acoustics, the equation used is often the linearised Navier-Stokes or Euler diffusion style equations that satisfy the conservation laws. Depending on the solving scheme used, the geometry will need to be discretized to at least 2 points per wavelength (in line with Nyquist theorem) and potentially beyond 10 points\footnote{particularly for explicit finite different and finite element methods} per wavelength to satisfy the Courant condition. The result is that problems become exponentially large and thus expensive to solve up to high frequencies. However, some methods such as the PTSD have been used to calculate up to low-mid frequencies in real time and may in future become suitable to calculating low frequency portions of hybrid models in VR.
+
+%----------------------------------------------------------------------------------------
+\newpage
 \section{Experiment Protocol}
+\subsection{experiment aims}
+The aim of subsequent research to this report, is to define how much of an impact the accuracy of reverberation synthesis has on the perception of a space in a VR application. Is there a direct correlation between the order of accuracy of a simulation, and test subjects believing the space they are hearing is real or at least realistic. 
 
-
-
-Users will be asked to evaluate 5 different instances of VR environments, and determine which audio is from the real environment.
+\subsection{experiment method}
+Users will be asked to evaluate 3 different listening environments, with a speech stimulus of two people talking in the space. There will be five potential reverb scenarios to evaluate in each environment: 
+\begin{itemize}
+\item convolving with an real IR of a real space
+\item a derived reverb
+\item a low order image source IR combined with a derived reverb
+\item a high order image source IR
+\item a control instance of the signal with the IR of a real place
+\end{itemize}
+Subjects will be asked to perform an evaluation test in which they use a simple VR headset and headphones to evaluate a space in VR. Subjects will be able to look around the scene, but not move from that position within it. The subjects will be asked to identify on a paper form, in which directions the people speaking are situated. Test material will be predetermined by either youtube video Subjects will be shown an initial 'training' scene, that will prepare them for the upcoming stimulus, but the test will be blind to what is being tested for until the post-test debrief. The test will be taken in real-world conditions i.e. in variable environments and with non-strict hardware conditions, this is to ground the experiments to scenarios where these basic VR systems are intended to be used. The results will then be analysed for accuracy i.e. which auditory scenes and images or spaces were correctly matched.
 
 Karjalainen \textit{et al}~\cite{Karjalainen2001} undertook a study into the perception of late reverberation, using a perceptual model to reinforce listening test data.
 
-%----------------------------------------------------------------------------------------
-%	PROBLEM 2
-%----------------------------------------------------------------------------------------
-
-\section{Lists}
-
-%------------------------------------------------
-
-\subsection{Example of list (3*itemize)}
-\begin{itemize}
-	\item First item in a list 
-		\begin{itemize}
-		\item First item in a list 
-			\begin{itemize}
-			\item First item in a list 
-			\item Second item in a list 
-			\end{itemize}
-		\item Second item in a list 
-		\end{itemize}
-	\item Second item in a list 
-\end{itemize}
-
-%------------------------------------------------
-%\paragraph{Heading on level 4 (paragraph)}
-\subsection{Example of list (enumerate)}
-\begin{enumerate}
-\item First item in a list 
-\item Second item in a list 
-\item Third item in a list
-\end{enumerate}
-
-\begin{align} 
-\begin{split}
-(x+y)^3 	&= (x+y)^2(x+y)\\
-&=(x^2+2xy+y^2)(x+y)\\
-&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
-&=x^3+3x^2y+3xy^2+y^3
-\end{split}					
-\end{align}
-
-\begin{align}
-A = 
-\begin{bmatrix}
-A_{11} & A_{21} \\
-A_{21} & A_{22}
-\end{bmatrix}
-\end{align}
-
-\begin{center}
-$RT_{60} = \frac{0.161 A}{Sa}$\\
-\end{center}
-
+\section{Conclusion}
+The intention of this paper was to explore some of the key psychoacoustic and physical principals behind the localization of sounds in relation VR, so that a listening test may be designed for evaluating the effect of different reverb synthesis methods on localization. 
 
 %----------------------------------------------------------------------------------------
 \newpage

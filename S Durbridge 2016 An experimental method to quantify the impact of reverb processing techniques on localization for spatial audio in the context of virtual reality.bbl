@@ -1,0 +1,220 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aaronson2014}
+Neil~L. Aaronson and William~M. Hartmann.
+\newblock {Testing, correcting, and extending the Woodworth model for
+  interaural time difference}.
+\newblock {\em The Journal of the Acoustical Society of America},
+  135(2):817--823, 2014.
+
+\bibitem{Allen1979}
+Jont~B. Allen.
+\newblock {Image method for efficiently simulating small-room acoustics}.
+\newblock {\em The Journal of the Acoustical Society of America}, 65(4):943,
+  1979.
+
+\bibitem{Angus2010}
+Jamie A~S Angus and Andrew Caunce.
+\newblock {A GPGPU Approach to Improved Acoustic Finite Difference Time Domain
+  Calculations}.
+\newblock {\em 128th Audio Engineering Society Convention}, 2010.
+
+\bibitem{Begault1995}
+Durand~R Begault.
+\newblock 3-d sound for virtual reality and multimedia.
+\newblock {\em Computer Music Journal}, 19(April):99, 1995.
+
+\bibitem{Bilbao2013}
+Stefan Bilbao.
+\newblock {Modeling of complex geometries and boundary conditions in finite
+  difference/finite volume time domain room acoustics simulation}.
+\newblock {\em IEEE Transactions on Audio, Speech and Language Processing},
+  21(7):1524--1533, 2013.
+
+\bibitem{Blauert1997}
+Jens Blauert.
+\newblock {Spatial Hearing- The Psychophysics of Human of sound}.
+\newblock {\em J. Acoust. Soc. Am.}, 77(1):334--335, 1997.
+
+\bibitem{Borish1984}
+Jeffrey Borish.
+\newblock {Extension of the image model to arbitrary polyhedra}.
+\newblock {\em The Journal of the Acoustical Society of America}, 75(6):1827,
+  1984.
+
+\bibitem{Botteldooren1995}
+D.~Botteldooren.
+\newblock {Finite-difference time-domain simulation of low-frequency room
+  acoustic problems}.
+\newblock {\em The Journal of the Acoustical Society of America}, 98(6):3302,
+  1995.
+
+\bibitem{Bregman1994}
+Albert~S Bregman.
+\newblock {The Auditory Scene}.
+\newblock {\em Auditory Scene Analysis: The perceptual organization of sound},
+  pages 1--45, 1994.
+
+\bibitem{Collins2013}
+T~Collins.
+\newblock {Binaural Ambisonic Decoding with Enhanced Lateral Localization}.
+\newblock {\em 134th AES Convention}, pages 1--10, 2013.
+
+\bibitem{Corey2002}
+Jason;Woszczyk~Wieslaw Corey.
+\newblock {Localization of Lateral Phantom Images in a 5-channel System with
+  and without Simulated Early Reflections}.
+\newblock {\em Aes}, pages 1--19, 2002.
+
+\bibitem{davis2006sound}
+D.~Davis and E.~Patronis.
+\newblock {\em Sound System Engineering}.
+\newblock Elsevier Focal Press, 2006.
+
+\bibitem{Elorza2005}
+David~Oliva Elorza.
+\newblock {\em {Room acoustics modeling using the ray- tracing method :
+  implementation and evaluation}}.
+\newblock PhD thesis, University of Turku, 2005.
+
+\bibitem{Everest2009}
+F.~Alton Everest and Neil~A. Shaw.
+\newblock {\em {Master Handbook of Acoustics, 5th Edition}}, volume 110.
+\newblock focal press, 5th edition, 2009.
+
+\bibitem{Galvez2016}
+Simon Galvez and Filippo Fazi.
+\newblock {Listener Adaptive Filtering Strategies for Personal Audio
+  Reproduction over Loudspeaker Arrays}.
+\newblock {\em AES Conference on Sound Field Control}, 38:183--184, 2016.
+
+\bibitem{googlevr2016}
+Google.
+\newblock {Developers VR Concepts Spatial Audio}, 2016.
+
+\bibitem{Haas1972}
+Helmut Haas.
+\newblock {The Influence of a Single Echo on the Audibility of Speech}.
+\newblock {\em J. Audio Eng. Soc}, 20(2):146--159, 1972.
+
+\bibitem{Hill2012}
+Adam~J Hill.
+\newblock {Analysis , Modeling and Wide-Area Spatiotemporal Control of
+  Low-Frequency Sound Reproduction}.
+\newblock (January), 2012.
+
+\bibitem{Inanaga1995}
+Kiyofumi Inanaga, Yuji Yamada, and Hiroshi Koizumi.
+\newblock {Headphone System with Out-of-head Localisation applying Dynamic
+  HRTF}.
+\newblock {\em 98th AES Convention}, 11:Convention Paper 4011, 1995.
+
+\bibitem{Johnson2016}
+Dale Johnson and Hyunkook Lee.
+\newblock {Investigation into the Perceptual Effects of Image Source Method
+  Order}.
+\newblock {\em Proceedings of the 140th Convention of the Audio Engineering
+  Society (2016)}, pages e--Brief 247, 2016.
+
+\bibitem{Jot1998}
+Jean-Marc Jot, Scott Wardle, and V{\'{e}}ronique Larcher.
+\newblock {Approaches to binaural synthesis}.
+\newblock In {\em 105th AES Conference}, volume 4861, 1998.
+
+\bibitem{Karjalainen2001}
+M~Karjalainen and H~Jarvelainen.
+\newblock More about this reverberation science: Perceptually good late
+  reverberation.
+\newblock {\em Audio Engineering Society Convention 111}, pages 1--8, 2001.
+
+\bibitem{Lee2010}
+Keun~Sup Lee, Nicholas~J Bryan, and Jonathan~S Abel.
+\newblock {Approximating measured reverberation using a hybrid fixed/switched
+  convolution structure}.
+\newblock {\em Proc. Digital Audio Effects (DAFx-10)}, pages 6--9, 2010.
+
+\bibitem{Linkwitz2015}
+Siegfried Linkwitz.
+\newblock {THE MAGIC IN 2-CHANNEL SOUND REPRODUCTION - WHY IS IT SO RARELY
+  HEARD ?}
+\newblock {\em Reproduced Sound 2015}, pages 1--22, 2015.
+
+\bibitem{Logan1961}
+B~F Logan.
+\newblock {“Colorless” Artificial Reverberation}.
+\newblock 9(19):192--197, 1961.
+
+\bibitem{Moore1996}
+B~C~J Moore.
+\newblock {Masking in the human auditory system}.
+\newblock {\em Collected Papers on Digital Audio Bit-Rate Reduction}, pages
+  9--19, 1996.
+
+\bibitem{Mourik2013}
+Jelle~Van Mourik and Damian Murphy.
+\newblock {Geometric and wave-based acoustic modelling using Blender}.
+\newblock {\em AES 49th International Conference: Audio for Games}, pages 1--9,
+  2013.
+
+\bibitem{OculusCo41online}
+Oculus.
+\newblock Oculus connect: Introduction to audio in vr - youtube, October 2014.
+\newblock (Accessed on 11/21/2016).
+
+\bibitem{Oxnard2012}
+Stephen Oxnard and Damian Murphy.
+\newblock {ACHIEVING CONVOLUTION-BASED REVERBERATION THROUGH USE OF GEOMETRIC
+  ACOUSTIC MODELING TECHNIQUES Stephen Oxnard Audio Lab , Department of
+  Electronics University of York Damian Murphy Audio Lab , Department of
+  Electronics University of York}.
+\newblock {\em Dafx}, pages 15--18, 2012.
+
+\bibitem{Pike2016}
+C~Pike, R~Taylor, T~Parnell, and F~Melchior.
+\newblock {Object-based spatial audio production for virtual reality using the
+  Audio Definition Mode}.
+\newblock {\em Audio Engineering Society}, 1(16):1--7, 2016.
+
+\bibitem{rossing2007springer}
+T.~Rossing.
+\newblock {\em Springer Handbook of Acoustics}.
+\newblock Springer Handbook of Acoustics. Springer New York, 2007.
+
+\bibitem{rumsey2012spatial}
+F.~Rumsey.
+\newblock {\em Spatial Audio}.
+\newblock Taylor \& Francis, 2012.
+
+\bibitem{Savioja2010}
+Lauri Savioja.
+\newblock {Real-time 3D finite-difference time-domain simulation of low- and
+  mid-frequency room acoustics}.
+\newblock {\em Proc Int Conf Digital Audio Effects}, pages 1--8, 2010.
+
+\bibitem{Siltanen2013}
+Samuel Siltanen, Alex Southern, and Lauri Savioja.
+\newblock {Finite-difference time domain method source calibration for hybrid
+  acoustics modeling}.
+\newblock {\em ICASSP, IEEE International Conference on Acoustics, Speech and
+  Signal Processing - Proceedings}, pages 166--170, 2013.
+
+\bibitem{Southern2012}
+Alex Southern, Damian~T. Murphy, and Lauri Savioja.
+\newblock {Spatial encoding of finite difference time domain acoustic models
+  for auralization}.
+\newblock {\em IEEE Transactions on Audio, Speech and Language Processing},
+  20(9):2420--2432, 2012.
+
+\bibitem{Usher2005}
+John Usher and Wieslaw Woszczyk.
+\newblock {Interaction of Source and Reverberance Spatial Imagery in
+  Multichannel Loudspeaker Audio}.
+\newblock {\em Aes}, pages 1--25, 2005.
+
+\bibitem{Wiggins2004}
+Bruce Wiggins.
+\newblock {\em {An investigation into the real-time manipulation and control of
+  three-dimensional sound fields}}.
+\newblock PhD thesis, University of Derby, 2004.
+
+\end{thebibliography}

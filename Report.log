@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  24 NOV 2016 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  24 NOV 2016 23:12
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -748,111 +748,144 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 119.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 119.
- [3] <itdexample.jpg, id=17, 395.22656pt x 417.05812pt>
-File: itdexample.jpg Graphic file (type jpg)
 
-<use itdexample.jpg>
-Package pdftex.def Info: itdexample.jpg used on input line 137.
+<googlevirtualsoundsources.jpg, id=14, 451.6875pt x 253.69781pt>
+File: googlevirtualsoundsources.jpg Graphic file (type jpg)
+
+<use googlevirtualsoundsources.jpg>
+Package pdftex.def Info: googlevirtualsoundsources.jpg used on input line 129.
+(pdftex.def)             Requested size: 250.95477pt x 140.95493pt.
+ [3 <./googlevirtualsoundsources.jpg>]
+<itdexample.jpg, id=18, 395.22656pt x 417.05812pt>
+File: itdexample.jpg Graphic file (type jpg)
+ <use itdexample.jpg>
+Package pdftex.def Info: itdexample.jpg used on input line 144.
 (pdftex.def)             Requested size: 167.29893pt x 176.53778pt.
- <coneofconfusion.jpg, id=18, 246.1697pt x 169.38281pt>
+
+<defractionexample.JPG, id=19, 447.92343pt x 251.43938pt>
+File: defractionexample.JPG Graphic file (type jpg)
+
+<use defractionexample.JPG>
+Package pdftex.def Info: defractionexample.JPG used on input line 153.
+(pdftex.def)             Requested size: 167.29893pt x 93.9097pt.
+ [4 <./itdexample.jpg> <./defractionexample.JPG>]
+<coneofconfusion.jpg, id=23, 246.1697pt x 169.38281pt>
 File: coneofconfusion.jpg Graphic file (type jpg)
 
 <use coneofconfusion.jpg>
-Package pdftex.def Info: coneofconfusion.jpg used on input line 153.
+Package pdftex.def Info: coneofconfusion.jpg used on input line 162.
 (pdftex.def)             Requested size: 167.29893pt x 115.11932pt.
- [4 <./itdexample.jpg>]
-<virtualizationoverspeakers.JPG, id=22, 455.45157pt x 569.87906pt>
+
+<virtualizationoverspeakers.JPG, id=24, 455.45157pt x 569.87906pt>
 File: virtualizationoverspeakers.JPG Graphic file (type jpg)
 
 <use virtualizationoverspeakers.JPG>
-Package pdftex.def Info: virtualizationoverspeakers.JPG used on input line 162.
+Package pdftex.def Info: virtualizationoverspeakers.JPG used on input line 171.
 
-(pdftex.def)             Requested size: 250.95477pt x 314.00836pt.
+(pdftex.def)             Requested size: 167.29893pt x 209.3302pt.
  [5 <./coneofconfusion.jpg> <./virtualizationoverspeakers.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
-[6] <reflection_diagran.jpg, id=29, 313.17pt x 109.91063pt>
+<ambisonicmicpatterns.jpg, id=28, 391.4625pt x 197.23688pt>
+File: ambisonicmicpatterns.jpg Graphic file (type jpg)
+
+<use ambisonicmicpatterns.jpg>
+Package pdftex.def Info: ambisonicmicpatterns.jpg used on input line 185.
+(pdftex.def)             Requested size: 125.47739pt x 63.2194pt.
+ [6 <./ambisonicmicpatterns.jpg>]
+<reflection_diagran.jpg, id=32, 313.17pt x 109.91063pt>
 File: reflection_diagran.jpg Graphic file (type jpg)
 
 <use reflection_diagran.jpg>
-Package pdftex.def Info: reflection_diagran.jpg used on input line 187.
+Package pdftex.def Info: reflection_diagran.jpg used on input line 207.
 (pdftex.def)             Requested size: 167.29893pt x 58.71689pt.
 
-<revertimedefinition.jpg, id=30, 296.60812pt x 255.20343pt>
+<revertimedefinition.jpg, id=33, 296.60812pt x 255.20343pt>
 File: revertimedefinition.jpg Graphic file (type jpg)
 
 <use revertimedefinition.jpg>
-Package pdftex.def Info: revertimedefinition.jpg used on input line 201.
+Package pdftex.def Info: revertimedefinition.jpg used on input line 221.
 (pdftex.def)             Requested size: 167.29893pt x 143.94876pt.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 203.
+(Font)              scaled to size 8.27998pt on input line 223.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 203.
+(Font)              scaled to size 8.27998pt on input line 223.
 
-<clarityscore.jpg, id=31, 247.67531pt x 127.97812pt>
+<clarityscore.jpg, id=34, 247.67531pt x 127.97812pt>
 File: clarityscore.jpg Graphic file (type jpg)
  <use clarityscore.jpg>
-Package pdftex.def Info: clarityscore.jpg used on input line 207.
+Package pdftex.def Info: clarityscore.jpg used on input line 227.
 (pdftex.def)             Requested size: 167.29893pt x 86.44594pt.
 
 [7 <./reflection_diagran.jpg> <./revertimedefinition.jpg> <./clarityscore.jpg>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 215.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 235.
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-[8] <precedence.jpg, id=41, 322.95656pt x 293.59688pt>
+[8] <precedence.jpg, id=44, 322.95656pt x 293.59688pt>
 File: precedence.jpg Graphic file (type jpg)
  <use precedence.jpg>
-Package pdftex.def Info: precedence.jpg used on input line 251.
+Package pdftex.def Info: precedence.jpg used on input line 269.
 (pdftex.def)             Requested size: 167.29893pt x 152.08885pt.
 
-Overfull \hbox (2.25449pt too wide) in paragraph at lines 255--260
-\T1/futs/m/n/10 de-tail[], though it may be of con-sid-er-able im-por-tance whe
-n con-sid-er-ing per-cep-tion of noise-like sound.
- []
-
 [9 <./precedence.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+<coreydiagram.jpg, id=48, 221.32687pt x 201.00093pt>
+File: coreydiagram.jpg Graphic file (type jpg)
+ <use coreydiagram.jpg>
+Package pdftex.def Info: coreydiagram.jpg used on input line 285.
+(pdftex.def)             Requested size: 167.29893pt x 151.94339pt.
+
+[10 <./coreydiagram.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+ []
+
+<apfblockdiagram.jpg, id=52, 274.77657pt x 116.68594pt>
+File: apfblockdiagram.jpg Graphic file (type jpg)
+
+<use apfblockdiagram.jpg>
+Package pdftex.def Info: apfblockdiagram.jpg used on input line 298.
+(pdftex.def)             Requested size: 167.29893pt x 71.04655pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Overfull \hbox (11.2451pt too wide) in paragraph at lines 307--308
+[]\T1/futs/m/n/10 The im-age source(IMS) tech-nique uses a rec-ti-lin-ear ge-om
+-e-try with some ba-sic frequency-independent
+ []
+
+[11 <./apfblockdiagram.jpg>]
+<imagesourcediagram.jpg, id=56, 547.2947pt x 508.14844pt>
+File: imagesourcediagram.jpg Graphic file (type jpg)
+
+<use imagesourcediagram.jpg>
+Package pdftex.def Info: imagesourcediagram.jpg used on input line 311.
+(pdftex.def)             Requested size: 167.29893pt x 155.33008pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
-[10]
-
-LaTeX Warning: Citation `Elorza2005' on page 11 undefined on input line 274.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Overfull \hbox (6.2651pt too wide) in paragraph at lines 276--277
-[]\T1/futs/m/n/10 The im-age source(IM) tech-nique uses a rec-ti-lin-ear ge-om-
-e-try with some ba-sic frequency-independent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-
- []
-
-[11]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 291
+[12 <./imagesourcediagram.jpg>]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 328
 .
- (C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
+
+(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-[12] (Report.bbl
+[13] [14] (Report.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -861,31 +894,27 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-[13]) [14] (Report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[15] [16]) [17] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 7792 strings out of 493334
- 124972 string characters out of 3136241
- 277036 words of memory out of 3000000
- 11114 multiletter control sequences out of 15000+200000
+ 7837 strings out of 493334
+ 125923 string characters out of 3136241
+ 277100 words of memory out of 3000000
+ 11153 multiletter control sequences out of 15000+200000
  125863 words of font info for 133 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,51p,8884b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\User
-s\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
-><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/fourier-
-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/f
-ourier-mlit.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/f
-ourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/uto
-pia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/put
-r8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pf
-b>
-Output written on Report.pdf (14 pages, 339889 bytes).
+{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvi
+ps/fontname/8r.enc} <C:\Users\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecsx1000.pk><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/fourier/fourier-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Simon/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/public/fourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKT
+eX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/
+fonts/type1/adobe/utopia/putr8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/t
+ype1/adobe/utopia/putri8a.pfb>
+Output written on Report.pdf (17 pages, 513997 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

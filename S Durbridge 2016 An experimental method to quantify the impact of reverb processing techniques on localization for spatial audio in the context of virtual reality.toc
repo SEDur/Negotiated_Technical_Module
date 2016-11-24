@@ -1,0 +1,16 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Ambisonic Spatial Audio for Virtual Reality}{4}
+\contentsline {subsection}{\numberline {2.1}Spatial Perception}{4}
+\contentsline {subsection}{\numberline {2.2}Ambisonics for virtual reality}{6}
+\contentsline {section}{\numberline {3}Reverberation \&\ Perception}{7}
+\contentsline {subsection}{\numberline {3.1}Reverberation}{7}
+\contentsline {subsection}{\numberline {3.2}Perception of Reflections}{9}
+\contentsline {subsection}{\numberline {3.3}Reverberation Algorithms}{11}
+\contentsline {subsubsection}{\numberline {3.3.1}filter based reverb}{11}
+\contentsline {subsubsection}{\numberline {3.3.2}modelling}{11}
+\contentsline {section}{\numberline {4}Experiment Protocol}{13}
+\contentsline {subsection}{\numberline {4.1}experiment aims}{13}
+\contentsline {subsection}{\numberline {4.2}experiment method}{13}
+\contentsline {section}{\numberline {5}Conclusion}{14}
+\contentsline {section}{\numberline {6}References}{15}

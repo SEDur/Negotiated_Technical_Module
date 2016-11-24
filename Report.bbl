@@ -23,6 +23,17 @@ Albert~S Bregman.
 \newblock {\em Auditory Scene Analysis: The perceptual organization of sound},
   pages 1--45, 1994.
 
+\bibitem{Collins2013}
+T~Collins.
+\newblock {Binaural Ambisonic Decoding with Enhanced Lateral Localization}.
+\newblock {\em 134th AES Convention}, pages 1--10, 2013.
+
+\bibitem{Corey2002}
+Jason;Woszczyk~Wieslaw Corey.
+\newblock {Localization of Lateral Phantom Images in a 5-channel System with
+  and without Simulated Early Reflections}.
+\newblock {\em Aes}, pages 1--19, 2002.
+
 \bibitem{davis2006sound}
 D.~Davis and E.~Patronis.
 \newblock {\em Sound System Engineering}.
@@ -32,6 +43,12 @@ D.~Davis and E.~Patronis.
 F.~Alton Everest and Neil~A. Shaw.
 \newblock {\em {Master Handbook of Acoustics, 5th Edition}}, volume 110.
 \newblock focal press, 5th edition, 2009.
+
+\bibitem{Galvez2016}
+Simon Galvez and Filippo Fazi.
+\newblock {Listener Adaptive Filtering Strategies for Personal Audio
+  Reproduction over Loudspeaker Arrays}.
+\newblock {\em AES Conference on Sound Field Control}, 38:183--184, 2016.
 
 \bibitem{Haas1972}
 Helmut Haas.
@@ -44,6 +61,17 @@ Norman~N Holland.
   The Willing Suspension of Disbelief : A Neuro-Psychoanalytic View}.
 \newblock {\em PsyArt : An Online Journal for the Psychological Study of the
   Arts}, pages 1--5, 2003.
+
+\bibitem{Inanaga1995}
+Kiyofumi Inanaga, Yuji Yamada, and Hiroshi Koizumi.
+\newblock {Headphone System with Out-of-head Localisation applying Dynamic
+  HRTF}.
+\newblock {\em 98th AES Convention}, 11:Convention Paper 4011, 1995.
+
+\bibitem{Jot1998}
+Jean-Marc Jot, Scott Wardle, and V{\'{e}}ronique Larcher.
+\newblock {Approaches to binaural synthesis}.
+\newblock In {\em 105th AES Conference}, volume 4861, 1998.
 
 \bibitem{Karjalainen2001}
 M~Karjalainen and H~Jarvelainen.

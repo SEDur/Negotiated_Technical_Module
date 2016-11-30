@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  28 NOV 2016 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  28 NOV 2016 20:56
 entering extended mode
 **"./S Durbridge 2016 An experimental method to quantify the impact of reverb p
 rocessing techniques on localization for spatial audio in the context of virtua
@@ -788,13 +788,7 @@ File: defractionexample.JPG Graphic file (type jpg)
 <use defractionexample.JPG>
 Package pdftex.def Info: defractionexample.JPG used on input line 153.
 (pdftex.def)             Requested size: 167.29893pt x 93.9097pt.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 158.
-
-
-LaTeX Warning: Citation `Angel2002' on page 4 undefined on input line 158.
-
-[4 <./itdexample.jpg> <./defractionexample.JPG>]
+ [4 <./itdexample.jpg> <./defractionexample.JPG>]
 <coneofconfusion.jpg, id=23, 246.1697pt x 169.38281pt>
 File: coneofconfusion.jpg Graphic file (type jpg)
 
@@ -814,21 +808,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
-<ambisonicmicpatterns.jpg, id=29, 391.4625pt x 197.23688pt>
+<ambisonicmicpatterns.jpg, id=28, 391.4625pt x 197.23688pt>
 File: ambisonicmicpatterns.jpg Graphic file (type jpg)
 
 <use ambisonicmicpatterns.jpg>
 Package pdftex.def Info: ambisonicmicpatterns.jpg used on input line 185.
 (pdftex.def)             Requested size: 125.47739pt x 63.2194pt.
  [6 <./virtualizationoverspeakers.JPG>] [7 <./ambisonicmicpatterns.jpg>]
-<reflection_diagran.jpg, id=37, 313.17pt x 109.91063pt>
+<reflection_diagran.jpg, id=36, 313.17pt x 109.91063pt>
 File: reflection_diagran.jpg Graphic file (type jpg)
 
 <use reflection_diagran.jpg>
 Package pdftex.def Info: reflection_diagran.jpg used on input line 207.
 (pdftex.def)             Requested size: 167.29893pt x 58.71689pt.
 
-<revertimedefinition.jpg, id=38, 296.60812pt x 255.20343pt>
+<revertimedefinition.jpg, id=37, 296.60812pt x 255.20343pt>
 File: revertimedefinition.jpg Graphic file (type jpg)
 
 <use revertimedefinition.jpg>
@@ -839,13 +833,15 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 223.
 
-<clarityscore.jpg, id=39, 247.67531pt x 127.97812pt>
+<clarityscore.jpg, id=38, 247.67531pt x 127.97812pt>
 File: clarityscore.jpg Graphic file (type jpg)
  <use clarityscore.jpg>
 Package pdftex.def Info: clarityscore.jpg used on input line 227.
 (pdftex.def)             Requested size: 167.29893pt x 86.44594pt.
 
 [8 <./reflection_diagran.jpg> <./revertimedefinition.jpg> <./clarityscore.jpg>]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 235.
 
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
@@ -880,10 +876,6 @@ File: apfblockdiagram.jpg Graphic file (type jpg)
 Package pdftex.def Info: apfblockdiagram.jpg used on input line 298.
 (pdftex.def)             Requested size: 167.29893pt x 71.04655pt.
 
-
-LaTeX Warning: Citation `Lien2016' on page 12 undefined on input line 302.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
@@ -907,16 +899,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--316
  []
 
 [13 <./imagesourcediagram.jpg>]
+Overfull \hbox (10.28554pt too wide) in paragraph at lines 326--327
+[]\T1/futs/m/n/10 Similar ex-per-i-ments have been car-ried out by nu-mer-ous g
+roups, two prime ex-am-ples be-ing Corey [13],
+ []
 
-LaTeX Warning: Citation `Angel2002' on page 14 undefined on input line 323.
-
-
-LaTeX Warning: Citation `Boerum2016' on page 14 undefined on input line 323.
-
-
-LaTeX Warning: Citation `Saji2009' on page 14 undefined on input line 323.
-
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 328
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 331
 .
 (C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
@@ -936,33 +924,28 @@ ne 1.
 [16] [17]) [18]
 ("S Durbridge 2016 An experimental method to quantify the impact of reverb proc
 essing techniques on localization for spatial audio in the context of virtual r
-eality.aux")
-
-LaTeX Warning: There were undefined references.
-
- ) 
+eality.aux") ) 
 Here is how much of TeX's memory you used:
  7841 strings out of 493334
  128940 string characters out of 3136241
- 277121 words of memory out of 3000000
+ 277137 words of memory out of 3000000
  11157 multiletter control sequences out of 15000+200000
  125863 words of font info for 133 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,51p,9042b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\User
-s\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
-><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/fourier-
-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/f
-ourier-mlit.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/f
-ourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/uto
-pia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/put
-r8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pf
-b>
+{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.e
+nc} <C:\Users\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecsx1000.pk><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/four
+ier/fourier-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/publ
+ic/fourier/fourier-mlit.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/ty
+pe1/public/fourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/typ
+e1/adobe/utopia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adob
+e/utopia/putr8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopi
+a/putri8a.pfb>
 Output written on "S Durbridge 2016 An experimental method to quantify the impa
 ct of reverb processing techniques on localization for spatial audio in the con
-text of virtual reality.pdf" (18 pages, 516548 bytes).
+text of virtual reality.pdf" (18 pages, 517678 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
-

@@ -13,6 +13,11 @@ Jont~B. Allen.
 \newblock {\em The Journal of the Acoustical Society of America}, 65(4):943,
   1979.
 
+\bibitem{Angel2002}
+Eric~J Angel, V~Ralph Algazi, and Richard~O Duda.
+\newblock {On the design of canonical sound localization environments}.
+\newblock {\em Audio Engineering Society 113th Convention}, 2002.
+
 \bibitem{Angus2010}
 Jamie A~S Angus and Andrew Caunce.
 \newblock {A GPGPU Approach to Improved Acoustic Finite Difference Time Domain
@@ -35,6 +40,14 @@ Stefan Bilbao.
 Jens Blauert.
 \newblock {Spatial Hearing- The Psychophysics of Human of sound}.
 \newblock {\em J. Acoust. Soc. Am.}, 77(1):334--335, 1997.
+
+\bibitem{Boerum2016}
+Matthew Boerum, Bryan Martin, Richard King, Geroge Massenburg, Dave Benson, and
+  Will Howie.
+\newblock {Lateral Listener Movement on the Horizontal Plane: Sensing Motion
+  Through Binaural Simulation}.
+\newblock {\em Audio Engineering Society Conference: 61st International
+  Conference: Audio for Games}, pages 1--11, 2016.
 
 \bibitem{Borish1984}
 Jeffrey Borish.
@@ -133,6 +146,10 @@ Keun~Sup Lee, Nicholas~J Bryan, and Jonathan~S Abel.
   convolution structure}.
 \newblock {\em Proc. Digital Audio Effects (DAFx-10)}, pages 6--9, 2010.
 
+\bibitem{Lien2016}
+Matthew Lien.
+\newblock {\em Audio Engineering Society}.
+
 \bibitem{Linkwitz2015}
 Siegfried Linkwitz.
 \newblock {THE MAGIC IN 2-CHANNEL SOUND REPRODUCTION - WHY IS IT SO RARELY
@@ -184,6 +201,12 @@ T.~Rossing.
 F.~Rumsey.
 \newblock {\em Spatial Audio}.
 \newblock Taylor \& Francis, 2012.
+
+\bibitem{Saji2009}
+Akira Saji, Keita Tanno, and Jie Huang.
+\newblock {Reproduction 3D sound by measuring and construction of HRTF with
+  Room Reverberation}.
+\newblock {\em Audio Engineering Society}, 1, 2009.
 
 \bibitem{Savioja2010}
 Lauri Savioja.

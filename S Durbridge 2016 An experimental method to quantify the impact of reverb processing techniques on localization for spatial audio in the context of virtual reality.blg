@@ -1,7 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: S Durbridge 2016 An experimental method to quantify the impact of reverb processing techniques on localization for spatial audio in the context of virtual reality.aux
 The style file: plain.bst
 Database file #1: mylibrary.bib
+I was expecting a `,' or a `}'---line 3676 of file mylibrary.bib
+ : 
+ : file = {:D$\backslash$:/drive/Uni Work/neg{\_}tec/Git/Negotiated{\_}Technical{\_}Module/space explorations.pdf:pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3681 of file mylibrary.bib
+ : @article{Boerum2016
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Hill2012
 Warning--there's a number but no volume in Hill2012
+Warning--empty title in Lien2016
+Warning--empty year in Lien2016
 Warning--empty journal in Logan1961
-(There were 3 warnings)
+(There were 2 error messages)

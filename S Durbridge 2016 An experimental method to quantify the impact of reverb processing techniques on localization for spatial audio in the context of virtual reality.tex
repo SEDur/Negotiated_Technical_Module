@@ -137,7 +137,7 @@ Finally, a testing method will be proposed in which subjects will evaluate diffe
 \section{Ambisonic Spatial Audio for Virtual Reality}
 \subsection{Spatial Perception}
 
-Research into spatial audio for VR may have flourished in recent past, but the foundation of localization theory remains based on the concepts explored by Rayleigh in 1907~\cite{Blauert1997}. Continued research into the field has matured and evolved understanding of these concepts, and for an in-depth review of auditory localization please review Blauert~\cite{Blauert1997}. Localization is the term given to he human capacity to binaurally (with two ears) localize sounds laterally in the plane of the ears and in the median plane (up and down), and is determined by interaural time differences (ITD), phase differences, interaural level differences(ILD), and the physical listening apparatus itself (pinnae, head shape, torso, head tilting etc).
+Research into spatial audio for VR may have flourished in recent past, but the foundation of localization theory remains based on the concepts explored by Rayleigh in 1907~\cite{Blauert1997}. Continued research into the field has matured and evolved understanding of these concepts, and for an in-depth review of auditory localization please review Blauert~\cite{Blauert1997}. Localization is the term given to the human capacity to binaurally (with two ears) localize sounds, laterally in the plane of the ears and in the median plane (up and down). A sources perceived location is determined by interaural time differences (ITD), phase differences, interaural level differences(ILD), and the physical listening apparatus itself (pinnae, head shape, torso, head tilting etc).
 
 \begin{figure}[H]
 \centering
@@ -146,7 +146,7 @@ Research into spatial audio for VR may have flourished in recent past, but the f
 \caption{A basic model diagram of the ITD from a source to a listener given by $\frac{r(\theta + sin \theta)}{\textit{c}}$ ~\cite{rumsey2012spatial}}
 \end{figure} 
 
-The ITD is the time difference between a sound arriving at each ear (not to be confused with phase), and is an important cue for localizing at frequencies below the wavelength relative to the size of a listeners head. The phase differences relates tothe asynchronous behaviour of sound diffracting around the head also provides temporally motivated localization cues~\cite{Aaronson2014}. At wavelengths larger than at least half the circumference of the head, sound waves can defract around the head. Above this frequency humans become more dependent of ILDs and phase differences. 
+The ITD is the time difference between a sound arriving at each ear (not to be confused with phase), and is an important cue for localizing at frequencies below the wavelength relative to the size of a listeners head. The phase differences relate to the asynchronous behaviour of sound diffracting around the head also provides temporally motivated localization cues~\cite{Aaronson2014}. At wavelengths larger than at least half the circumference of the head, sound waves can defract around the head. Above this frequency humans become more dependent on ILDs and phase differences. 
 
 \begin{figure}[H]
 \centering
@@ -155,7 +155,7 @@ The ITD is the time difference between a sound arriving at each ear (not to be c
 \caption{A still of visualization of a wave defracing around an obstacle in occlusion ~\cite{googlevr2016}}
 \end{figure} 
 
-The ILD is the level difference between ears of a sound, and is more critical to localization of shorter wavelengths where head and torso shadowing is dominant. The pinnae and torso have a distinct filtering affect that assists humans in localizing sources in the median plane~\cite{Blauert1997}~\cite{Begault1995}~\cite{Wiggins2004}, another benefit of this filtering is that humans are able to some degree overcome the 'cone of confusion' that would occur when a sound source is in a position that would otherwise produce the same ITD and ILD as another position (illustrated below). Another key cue for localization in the median place, is that humans have a tendency to move and tild their heads, using the changes in what is heard to refine localization~\cite{Blauert1997}. Head tracking in headphone based spatial audio has been shown the improve localization accuracy when incorporating early reflections after the floor reflection~\cite{Angel2002}.
+The ILD is the level difference between ears of a sound, and is more critical to localization of shorter wavelengths where head and torso shadowing is dominant. The pinnae and torso have a distinct filtering affect that assists humans in localizing sources in the median plane~\cite{Blauert1997}~\cite{Begault1995}~\cite{Wiggins2004}. Another benefit of this filtering is that humans are able to some degree overcome the 'cone of confusion' that would occur when a sound source is in a position that would otherwise produce the same ITD and ILD as another position (illustrated below). Another key cue for localization in the median place, is that humans have a tendency to move and tild their heads, using the changes in what is heard to refine localization~\cite{Blauert1997}. Head tracking in headphone based spatial audio has been shown the improve localization accuracy when incorporating early reflections after the floor reflection~\cite{Angel2002}.
 
 \begin{figure}[H]
 \centering
@@ -164,7 +164,7 @@ The ILD is the level difference between ears of a sound, and is more critical to
 \caption{A diagram example of the cone of confusion. If a source were in location a, it would have the same ITD and ILD and thus would be ambiguous to position b. Positions x and y share a similar relationship in the vertical plane as oposed to the lateral plane of a and b~\cite{Begault1995}}
 \end{figure}
 
-The total system of localization effects from source to the entrance of the receivers ear canal(s) can be lumped into a head-related transfer function (HRTF), and can be translated into a head-related impulse response (HRIR). Upon synthesizing an HRIR filter, it is possible to reproduce audio with binaural cues over headphones or an appropriate speaker system, that gives listeners the impression of virtual source localization (and ideally externalization). 
+The total system of localization effects from source to the entrance of the receivers ear canal(s) can be lumped into a head-related transfer function (HRTF), and can be translated into a head-related impulse response (HRIR). Upon synthesizing an HRIR filter, it is possible to reproduce audio with binaural cues over headphones or an appropriate speaker system, that gives listeners the impression of virtual source localization ~\cite{rumsey2012spatial}(and ideally externalization). 
 
 \begin{figure}[H]
 \centering
@@ -173,7 +173,7 @@ The total system of localization effects from source to the entrance of the rece
 \caption{A diagram of a loudspeaker system set up for virtualization~\cite{rumsey2012spatial}}
 \end{figure}
 
-Auditory Scene Analysis(ASA) is the term given to the brains process of group and compartmentalizing sounds into components of the auditory 'scene'~\cite{rumsey2012spatial}. Through a complex process of continuous analysis and adaptation, the brain is able to accurately differentiate sounds into specific details such as how large a room is, what the wall materials are or which direction a complex source such as an oboe is facing. Bregman~\cite{Bregman1994} suggests that a key part of the ASA process is learned via auditory steaming, which is essentially spectrogram analysis, comparing time and frequency based patterns to those already known, and associating those patterns as another object in the scene. As denoted in anecdotes such as that by Wiggins~\cite{Wiggins2004}, humans use cues from reverberation to categorize the size of an enclosed space.
+Auditory Scene Analysis(ASA) is the term given to the brains process of grouping and compartmentalizing sounds into components of the auditory 'scene'~\cite{rumsey2012spatial}. Through a complex process of continuous analysis and adaptation, the brain is able to accurately differentiate sounds into specific details such as how large a room is, what the wall materials are or which direction a complex source such as an oboe is facing. Bregman~\cite{Bregman1994} suggests that a key part of the ASA process is learned via auditory steaming, which is essentially spectrogram analysis, comparing time and frequency based patterns to those already known, and associating those patterns as another object in the scene. As denoted in anecdotes such as that by Wiggins~\cite{Wiggins2004}, humans use cues from reverberation to categorize the size of an enclosed space.
 
 \subsection{Ambisonics for virtual reality}
 
@@ -320,13 +320,16 @@ Wave based modelling methods directly model spaces by calculating solutions to a
 \newpage
 \section{Experiment Protocol}
 \subsection{experiment aims}
-The aim of subsequent research to this report, is to define how much of an impact the accuracy of reverberation synthesis has on the perception of source localization in a VR application. Is there a direct correlation between the order of accuracy of a simulation, and test subjects capacity to localize sounds in the space? Similar experiments have been carried out by numerous groups, two prime examples being Corey~\cite{Corey2002}, Angel~\cite{Angel2002}, both of which showed added early reflections improved localization in a loudspeaker based localization test. In similar experiments; Boerum~\cite{Boerum2016} undertook a series of listening tests to show that early reflections improved perception of lateral movement, and Saji~\cite{Saji2009} showed that a process of incorporating reflections into HRTFs improved localization under anechoic conditions.
+The aim of subsequent research to this report, is to define how much of an impact the accuracy of reverberation synthesis has on the perception of source localization in a VR application. Is there a direct correlation between the order of accuracy of a simulation, and test subjects capacity to localize sounds in the space? 
+The core method behind this experiment is to determine if there is an average improvement in localization i.e. a reduction in localization blur, by comparing the change in error for a group of test subjects across varying stimulus and environments. Comparing group error for localizing sources per instance of 'large hall with speech with 3rd order early reflections' with the same of 5th order reflections, may give an idea of how well early reflections order can improve a subjects capacity to localize in that environment. The difference between this method and other examples, is that the VR system will allow subjects to turn and localize sources in the way best for them. Ideally, this should give for negligible localization error in all instances, and also discounts any effects from sources being in the cone of confusion of a subject.
+
+ Similar experiments have been carried out by numerous groups, two prime examples being Corey~\cite{Corey2002}, Angel~\cite{Angel2002}, both of which showed added early reflections improved localization in a loudspeaker based localization test. In similar experiments; Boerum~\cite{Boerum2016} undertook a series of listening tests to show that early reflections improved perception of lateral movement, and Saji~\cite{Saji2009} showed that a process of incorporating reflections into HRTFs improved localization under anechoic conditions.
 
 \subsection{experiment method}
 Users will be asked to evaluate 3 different listening environments, with two stimuli, of two people talking in the space and a stereo pop music track respectively. The test results will be analysed for localization error, front-back reversals. There will be five potential reverb scenarios to evaluate in each environment: 
 \begin{itemize}
 \item convolving with an IR of a real space
-\item a derived reverb
+\item a derived reverb with no early reflections 
 \item a low order image source IR combined with a derived reverb
 \item a high order image source IR
 \item a control instance of the signals without spatial reverb
@@ -335,12 +338,11 @@ The locations of sources in the scene will be randomized so that source location
 Subjects will be asked to perform an evaluation test similar to those mentioned above, in which they use a simple VR headset and headphones to evaluate an auditory scene with a visual component such as a 360 degree image. Subjects will be able to look around the scene, but not move from that position within the scene. The visual scene will be used to give viewers a bias towards room size and thus reverb time. The subjects will be asked to identify in which directions the sources are situated, without a visual cue as to the location of the sources. 
 Subjects will be shown an initial 'training' scene without reverb, that will prepare them for the upcoming stimulus, but the test will be blind to what is being tested for until the post-test debrief. The tests will be taken in real-world conditions i.e. in variable environments and with non-strict hardware conditions, this is to ground the experiments to scenarios where these basic VR systems are intended to be used.
 
-\newpage
 \section{Conclusion}
 The intention of this paper was to explore some of the key psychoacoustic and physical principals behind the localization of sounds in relation VR, so that a listening test may be designed for evaluating the effect of different reverb synthesis methods on localization in VR applications. Key texts by Begault~\cite{Begault1995} , Wiggins~\cite{Wiggins2004}, Blauert~\cite{Blauert1997} and Rumsey~\cite{rumsey2012spatial} denote the importance of reverb in the context of localization and perception with relation to spatial audio.
 
 A number of sources in the literature such as Corey~\cite{Corey2002}, Johnson~\cite{Johnson2016}, Usher~\cite{Usher2005} examine the influences of reverberation on localization, and aspects related to localization and reverberation perception are discussed above. A listening test is described that would aim to test the influence of reverberation on localization in a VR context.
-Further work will go on to implement the listening test described above, along with implementing the reverb synthesis methods above and further research into the leading of localization perception by VR imagery.
+Further work will go on to implement the listening test described above in more detail, along with implementing the reverb synthesis methods above and further research into the leading of localization perception by VR imagery.
 
 %----------------------------------------------------------------------------------------
 \newpage

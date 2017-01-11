@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  11 JAN 2017 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  11 JAN 2017 13:02
 entering extended mode
 **"./S Durbridge Neg Tec Part Two TwentySixteen.tex"
 ("S Durbridge Neg Tec Part Two TwentySixteen.tex"
@@ -725,48 +725,6 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 
 
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 95.
-
-("S Durbridge Neg Tec Part Two TwentySixteen.lof"
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 3.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 2 undefined on input line 3
-.
-
-
-LaTeX Warning: Citation `googlevr2016' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Begault1995' on page 2 undefined on input line 5.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 2 undefined on input line 6
-.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Everest2009' on page 2 undefined on input line 8.
-
-
-LaTeX Warning: Citation `rossing2007springer' on page 2 undefined on input line
- 9.
-
-
-LaTeX Warning: Citation `Everest2009' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Corey2002' on page 2 undefined on input line 11.
-
-
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
  Make it at least 8.39996pt.
  We now make it that large for the rest of the document.
@@ -774,561 +732,62 @@ Package Fancyhdr Warning: \footskip is too small (0.0pt):
 
 [2]
 
-LaTeX Warning: Citation `Begault1995' on page 3 undefined on input line 12.
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 95.
 
-
-LaTeX Warning: Citation `Hill2012' on page 3 undefined on input line 13.
-
-)
+("S Durbridge Neg Tec Part Two TwentySixteen.lof")
 \tf@lof=\write4
 \openout4 = `"S Durbridge Neg Tec Part Two TwentySixteen.lof"'.
 
  [3]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 113.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 113.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 114.
 
 
-LaTeX Warning: Citation `googlevr2016' on page 4 undefined on input line 113.
+LaTeX Warning: Citation `Durbridge2016b' on page 4 undefined on input line 114.
 
 
-LaTeX Warning: Citation `OculusCo41online' on page 4 undefined on input line 11
-3.
 
+LaTeX Warning: Citation `Begault1995' on page 4 undefined on input line 114.
 
-Overfull \hbox (7.36725pt too wide) in paragraph at lines 113--114
-\T1/futs/m/n/10 avail-able to the gen-eral pub-lic. A num-ber of com-pa-nies []
- have re-leased soft-ware de-vel-op-ment kits(SDK),
- []
 
+LaTeX Warning: Citation `googlevr2016' on page 4 undefined on input line 121.
 
-LaTeX Warning: Citation `Begault1995' on page 4 undefined on input line 115.
+[4] [5] [6] [7] [8] ("S Durbridge Neg Tec Part Two TwentySixteen.bbl"
 
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 1.
 
-LaTeX Warning: Citation `rumsey2012spatial' on page 4 undefined on input line 1
-15.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 4 undefined on input line 115.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 4 undefined on input line 115.
-
-
-LaTeX Warning: Citation `googlevr2016' on page 4 undefined on input line 119.
-
-
-LaTeX Warning: Citation `OculusCo41online' on page 4 undefined on input line 12
-5.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 4 undefined on input line 1
-28.
-
-
-LaTeX Warning: Citation `Begault1995' on page 4 undefined on input line 130.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 4 undefined on input line 1
-30.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 4 undefined on input line 130.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 4 undefined on input line 130.
-
-
-LaTeX Warning: Citation `Corey2002' on page 4 undefined on input line 130.
-
-[4]
-
-LaTeX Warning: Citation `Blauert1997' on page 5 undefined on input line 151.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 5 undefined on input line 151.
-
-<itdexample.jpg, id=21, 395.22656pt x 417.05812pt>
-File: itdexample.jpg Graphic file (type jpg)
- <use itdexample.jpg>
-Package pdftex.def Info: itdexample.jpg used on input line 155.
-(pdftex.def)             Requested size: 167.29893pt x 176.53778pt.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 5 undefined on input line 1
-57.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 5 undefined on input line 1
-57.
-
-
-LaTeX Warning: Citation `Aaronson2014' on page 5 undefined on input line 160.
-
-<defractionexample.JPG, id=22, 447.92343pt x 251.43938pt>
-File: defractionexample.JPG Graphic file (type jpg)
-
-<use defractionexample.JPG>
-Package pdftex.def Info: defractionexample.JPG used on input line 164.
-(pdftex.def)             Requested size: 167.29893pt x 93.9097pt.
-
-
-LaTeX Warning: Citation `googlevr2016' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation `googlevr2016' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 5 undefined on input line 169.
-
-
-LaTeX Warning: Citation `Begault1995' on page 5 undefined on input line 169.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 5 undefined on input line 169.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 5 undefined on input line 169.
-
-
-LaTeX Warning: Citation `Angel2002' on page 5 undefined on input line 169.
-
-[5 <./itdexample.jpg> <./defractionexample.JPG>]
-<coneofconfusion.jpg, id=26, 246.1697pt x 169.38281pt>
-File: coneofconfusion.jpg Graphic file (type jpg)
-
-<use coneofconfusion.jpg>
-Package pdftex.def Info: coneofconfusion.jpg used on input line 173.
-(pdftex.def)             Requested size: 167.29893pt x 115.11932pt.
-
-
-LaTeX Warning: Citation `Begault1995' on page 6 undefined on input line 175.
-
-
-LaTeX Warning: Citation `Begault1995' on page 6 undefined on input line 175.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 6 undefined on input line 1
-78.
-
-<virtualizationoverspeakers.JPG, id=27, 455.45157pt x 569.87906pt>
-File: virtualizationoverspeakers.JPG Graphic file (type jpg)
-
-<use virtualizationoverspeakers.JPG>
-Package pdftex.def Info: virtualizationoverspeakers.JPG used on input line 182.
-
-(pdftex.def)             Requested size: 167.29893pt x 209.3302pt.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 6 undefined on input line 1
-84.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 6 undefined on input line 1
-84.
-
-[6 <./coneofconfusion.jpg>]
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 7 undefined on input line 1
-87.
-
-
-LaTeX Warning: Citation `Bregman1994' on page 7 undefined on input line 187.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 7 undefined on input line 187.
-
-
-LaTeX Warning: Citation `googlevr2016' on page 7 undefined on input line 191.
-
-
-LaTeX Warning: Citation `Pike2016' on page 7 undefined on input line 192.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 7 undefined on input line 192.
-
-
-LaTeX Warning: Citation `Galvez2016' on page 7 undefined on input line 192.
-
-
-LaTeX Warning: Citation `Inanaga1995' on page 7 undefined on input line 192.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
-
- []
-
-<ambisonicmicpatterns.jpg, id=31, 391.4625pt x 197.23688pt>
-File: ambisonicmicpatterns.jpg Graphic file (type jpg)
-
-<use ambisonicmicpatterns.jpg>
-Package pdftex.def Info: ambisonicmicpatterns.jpg used on input line 196.
-(pdftex.def)             Requested size: 125.47739pt x 63.2194pt.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 7 undefined on input line 198.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 7 undefined on input line 198.
-
-[7 <./virtualizationoverspeakers.JPG>]
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 8 undefined on input line 2
-01.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 8 undefined on input line 2
-03.
-
-
-LaTeX Warning: Citation `Jot1998' on page 8 undefined on input line 204.
-
-
-LaTeX Warning: Citation `Collins2013' on page 8 undefined on input line 204.
-
-[8 <./ambisonicmicpatterns.jpg>]
-
-LaTeX Warning: Citation `Everest2009' on page 9 undefined on input line 214.
-
-<reflection_diagran.jpg, id=39, 313.17pt x 109.91063pt>
-File: reflection_diagran.jpg Graphic file (type jpg)
-
-<use reflection_diagran.jpg>
-Package pdftex.def Info: reflection_diagran.jpg used on input line 218.
-(pdftex.def)             Requested size: 167.29893pt x 58.71689pt.
-
-
-LaTeX Warning: Citation `Everest2009' on page 9 undefined on input line 220.
-
-
-LaTeX Warning: Citation `Everest2009' on page 9 undefined on input line 220.
-
-
-LaTeX Warning: Citation `Everest2009' on page 9 undefined on input line 223.
-
-
-LaTeX Warning: Citation `Everest2009' on page 9 undefined on input line 225.
-
-
-LaTeX Warning: Citation `rossing2007springer' on page 9 undefined on input line
- 227.
-
-<revertimedefinition.jpg, id=40, 296.60812pt x 255.20343pt>
-File: revertimedefinition.jpg Graphic file (type jpg)
-
-<use revertimedefinition.jpg>
-Package pdftex.def Info: revertimedefinition.jpg used on input line 232.
-(pdftex.def)             Requested size: 167.29893pt x 143.94876pt.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 234.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 234.
-
-<clarityscore.jpg, id=41, 247.67531pt x 127.97812pt>
-File: clarityscore.jpg Graphic file (type jpg)
- <use clarityscore.jpg>
-Package pdftex.def Info: clarityscore.jpg used on input line 238.
-(pdftex.def)             Requested size: 167.29893pt x 86.44594pt.
-
-
-LaTeX Warning: Citation `rossing2007springer' on page 9 undefined on input line
- 242.
-
-
-LaTeX Warning: Citation `rossing2007springer' on page 9 undefined on input line
- 242.
-
-[9 <./reflection_diagran.jpg> <./revertimedefinition.jpg> <./clarityscore.jpg>]
-
-LaTeX Warning: Citation `Begault1995' on page 10 undefined on input line 246.
-
-
-LaTeX Warning: Citation `davis2006sound' on page 10 undefined on input line 246
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-
- []
-
-
-LaTeX Warning: Citation `Begault1995' on page 10 undefined on input line 261.
-
-
-LaTeX Warning: Citation `davis2006sound' on page 10 undefined on input line 262
-.
-
-[10]
-
-LaTeX Warning: Citation `rossing2007springer' on page 11 undefined on input lin
-e 271.
-
-
-LaTeX Warning: Citation `Karjalainen2001' on page 11 undefined on input line 27
-1.
-
-
-LaTeX Warning: Citation `Haas1972' on page 11 undefined on input line 271.
-
-
-LaTeX Warning: Citation `Begault1995' on page 11 undefined on input line 271.
-
-
-LaTeX Warning: Citation `Everest2009' on page 11 undefined on input line 274.
-
-
-LaTeX Warning: Citation `rossing2007springer' on page 11 undefined on input lin
-e 274.
-
-
-LaTeX Warning: Citation `Begault1995' on page 11 undefined on input line 275.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 11 undefined on input line 276.
-
-<precedence.jpg, id=49, 322.95656pt x 293.59688pt>
-File: precedence.jpg Graphic file (type jpg)
- <use precedence.jpg>
-Package pdftex.def Info: precedence.jpg used on input line 280.
-(pdftex.def)             Requested size: 167.29893pt x 152.08885pt.
-
-
-LaTeX Warning: Citation `Everest2009' on page 11 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Everest2009' on page 11 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Everest2009' on page 11 undefined on input line 286.
-
-
-LaTeX Warning: Citation `Moore1996' on page 11 undefined on input line 288.
-
-[11 <./precedence.jpg>]
-
-LaTeX Warning: Citation `Linkwitz2015' on page 12 undefined on input line 290.
-
-
-LaTeX Warning: Citation `Begault1995' on page 12 undefined on input line 290.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 12 undefined on input line 290.
-
-
-LaTeX Warning: Citation `Begault1995' on page 12 undefined on input line 290.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
-
-
-LaTeX Warning: Citation `Corey2002' on page 12 undefined on input line 292.
-
-
-LaTeX Warning: Citation `Karjalainen2001' on page 12 undefined on input line 29
-2.
-
-
-LaTeX Warning: Citation `Mourik2013' on page 12 undefined on input line 292.
-
-
-LaTeX Warning: Citation `Begault1995' on page 12 undefined on input line 292.
-
-<coreydiagram.jpg, id=53, 221.32687pt x 201.00093pt>
-File: coreydiagram.jpg Graphic file (type jpg)
- <use coreydiagram.jpg>
-Package pdftex.def Info: coreydiagram.jpg used on input line 296.
-(pdftex.def)             Requested size: 167.29893pt x 151.94339pt.
-
-
-LaTeX Warning: Citation `Corey2002' on page 12 undefined on input line 297.
-
-
-LaTeX Warning: Citation `Corey2002' on page 12 undefined on input line 297.
-
-[12 <./coreydiagram.jpg>]
-
-LaTeX Warning: Citation `Begault1995' on page 13 undefined on input line 304.
-
-
-LaTeX Warning: Citation `Begault1995' on page 13 undefined on input line 305.
-
-
-LaTeX Warning: Citation `Logan1961' on page 13 undefined on input line 305.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
-
- []
-
-<apfblockdiagram.jpg, id=57, 274.77657pt x 116.68594pt>
-File: apfblockdiagram.jpg Graphic file (type jpg)
-
-<use apfblockdiagram.jpg>
-Package pdftex.def Info: apfblockdiagram.jpg used on input line 309.
-(pdftex.def)             Requested size: 167.29893pt x 71.04655pt.
-
-
-LaTeX Warning: Citation `Begault1995' on page 13 undefined on input line 310.
-
-
-LaTeX Warning: Citation `Begault1995' on page 13 undefined on input line 310.
-
-
-LaTeX Warning: Citation `Lee2010' on page 13 undefined on input line 313.
-
-
-LaTeX Warning: Citation `Lien2016' on page 13 undefined on input line 313.
-
-
-LaTeX Warning: Citation `Elorza2005' on page 13 undefined on input line 316.
-
-
-LaTeX Warning: Citation `Oxnard2012' on page 13 undefined on input line 316.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-
-LaTeX Warning: Citation `Allen1979' on page 13 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Borish1984' on page 13 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Elorza2005' on page 13 undefined on input line 318.
-
-
-Overfull \hbox (11.2451pt too wide) in paragraph at lines 318--319
-[]\T1/futs/m/n/10 The im-age source(IMS) tech-nique uses a rec-ti-lin-ear ge-om
--e-try with some ba-sic frequency-independent
- []
-
-[13 <./apfblockdiagram.jpg>]
-<imagesourcediagram.jpg, id=62, 547.2947pt x 508.14844pt>
-File: imagesourcediagram.jpg Graphic file (type jpg)
-
-<use imagesourcediagram.jpg>
-Package pdftex.def Info: imagesourcediagram.jpg used on input line 322.
-(pdftex.def)             Requested size: 167.29893pt x 155.33008pt.
-
-
-LaTeX Warning: Citation `Hill2012' on page 14 undefined on input line 323.
-
-
-LaTeX Warning: Citation `Hill2012' on page 14 undefined on input line 323.
-
-
-LaTeX Warning: Citation `Oxnard2012' on page 14 undefined on input line 326.
-
-
-LaTeX Warning: Citation `Lee2010' on page 14 undefined on input line 326.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-
-LaTeX Warning: Citation `Botteldooren1995' on page 14 undefined on input line 3
-28.
-
-
-LaTeX Warning: Citation `Bilbao2013' on page 14 undefined on input line 328.
-
-
-LaTeX Warning: Citation `Siltanen2013' on page 14 undefined on input line 328.
-
-
-LaTeX Warning: Citation `Angus2010' on page 14 undefined on input line 328.
-
-
-LaTeX Warning: Citation `Savioja2010' on page 14 undefined on input line 328.
-
-
-LaTeX Warning: Citation `Southern2012' on page 14 undefined on input line 328.
-
-[14 <./imagesourcediagram.jpg>]
-
-LaTeX Warning: Citation `Corey2002' on page 15 undefined on input line 337.
-
-
-LaTeX Warning: Citation `Angel2002' on page 15 undefined on input line 337.
-
-
-LaTeX Warning: Citation `Boerum2016' on page 15 undefined on input line 337.
-
-
-LaTeX Warning: Citation `Saji2009' on page 15 undefined on input line 337.
-
-
-Overfull \hbox (4.72556pt too wide) in paragraph at lines 337--338
-[]\T1/futs/m/n/10 Similar ex-per-i-ments have been car-ried out by nu-mer-ous g
-roups, two prime ex-am-ples be-ing Corey [\T1/futs/b/n/10 ?\T1/futs/m/n/10 ],
- []
-
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 342
-.
-(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
-[15]
-
-LaTeX Warning: Citation `Begault1995' on page 16 undefined on input line 355.
-
-
-LaTeX Warning: Citation `Wiggins2004' on page 16 undefined on input line 355.
-
-
-LaTeX Warning: Citation `Blauert1997' on page 16 undefined on input line 355.
-
-
-LaTeX Warning: Citation `rumsey2012spatial' on page 16 undefined on input line 
-355.
-
-
-LaTeX Warning: Citation `Corey2002' on page 16 undefined on input line 357.
-
-
-LaTeX Warning: Citation `Johnson2016' on page 16 undefined on input line 357.
-
-
-LaTeX Warning: Citation `Usher2005' on page 16 undefined on input line 357.
-
-[16]
-No file "S Durbridge Neg Tec Part Two TwentySixteen".bbl.
-[17] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
+) [9] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7836 strings out of 493334
- 126337 string characters out of 3136241
- 277037 words of memory out of 3000000
- 11153 multiletter control sequences out of 15000+200000
- 130393 words of font info for 136 fonts, out of 3000000 for 9000
+ 7669 strings out of 493334
+ 123611 string characters out of 3136241
+ 275080 words of memory out of 3000000
+ 11028 multiletter control sequences out of 15000+200000
+ 87847 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,51p,8922b,534s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,10n,51p,8922b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\User
 s\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
-><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/fourier-
-mex.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourier/f
-ourier-mlit.pfb><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/f
-ourier/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/uto
-pia/putb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/put
-r8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pf
-b>
-Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (17 pages, 6
-01116 bytes).
+><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><D:/MS
+C/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><D:/MSC/Resea
+rch Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (9 pages, 23
+2171 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

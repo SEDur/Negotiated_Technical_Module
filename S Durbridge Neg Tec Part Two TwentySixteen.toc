@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {subsection}{\numberline {1.1}Research Question}{4}
+\contentsline {section}{\numberline {2}Hypothosis}{5}
+\contentsline {subsection}{\numberline {2.1}Spatial Perception}{5}
+\contentsline {subsection}{\numberline {2.2}Ambisonics for virtual reality}{7}
+\contentsline {section}{\numberline {3}Experimental Method and Results}{9}
+\contentsline {subsection}{\numberline {3.1}Reverberation}{9}
+\contentsline {subsection}{\numberline {3.2}Perception of Reflections}{11}
+\contentsline {subsection}{\numberline {3.3}Reverberation Algorithms}{13}
+\contentsline {subsubsection}{\numberline {3.3.1}filter based reverb}{13}
+\contentsline {subsubsection}{\numberline {3.3.2}modelling}{13}
+\contentsline {section}{\numberline {4}Results Analysis and Evaluation}{15}
+\contentsline {subsection}{\numberline {4.1}experiment aims}{15}
+\contentsline {subsection}{\numberline {4.2}experiment method}{15}
+\contentsline {section}{\numberline {5}Experiment Review}{16}
+\contentsline {section}{\numberline {6}Conclusion}{16}
+\contentsline {section}{\numberline {7}References}{17}

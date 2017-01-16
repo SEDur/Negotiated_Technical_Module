@@ -1,36 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: S Durbridge Neg Tec Part Two TwentySixteen.aux
 The style file: plain.bst
-Database file #1: library.bib
-Warning--I didn't find a database entry for "rumsey2012spatial"
-Warning--I didn't find a database entry for "googlevr2016"
+Database file #1: mybib.bib
+Warning--I didn't find a database entry for "Durbridge2016b"
 Warning--I didn't find a database entry for "Begault1995"
-Warning--I didn't find a database entry for "Wiggins2004"
-Warning--I didn't find a database entry for "rossing2007springer"
-Warning--I didn't find a database entry for "Corey2002"
-Warning--I didn't find a database entry for "OculusCo41online"
-Warning--I didn't find a database entry for "Blauert1997"
-Warning--I didn't find a database entry for "Aaronson2014"
-Warning--I didn't find a database entry for "Angel2002"
-Warning--I didn't find a database entry for "Bregman1994"
-Warning--I didn't find a database entry for "Pike2016"
-Warning--I didn't find a database entry for "Galvez2016"
-Warning--I didn't find a database entry for "Inanaga1995"
-Warning--I didn't find a database entry for "Jot1998"
-Warning--I didn't find a database entry for "Collins2013"
-Warning--I didn't find a database entry for "davis2006sound"
-Warning--I didn't find a database entry for "Karjalainen2001"
-Warning--I didn't find a database entry for "Haas1972"
-Warning--I didn't find a database entry for "Logan1961"
-Warning--I didn't find a database entry for "Lee2010"
-Warning--I didn't find a database entry for "Lien2016"
-Warning--I didn't find a database entry for "Oxnard2012"
-Warning--I didn't find a database entry for "Allen1979"
-Warning--I didn't find a database entry for "Borish1984"
-Warning--I didn't find a database entry for "Saji2009"
-Warning--I didn't find a database entry for "Johnson2016"
-Warning--I didn't find a database entry for "Usher2005"
-Warning--empty publisher in Everest2009
-Warning--empty journal in Hill2012
-Warning--there's a number but no volume in Hill2012
-Warning--empty journal in Linkwitz2015
-(There were 32 warnings)
+Warning--I didn't find a database entry for "googlevr2016"
+(There were 3 warnings)

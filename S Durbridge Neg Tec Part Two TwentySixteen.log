@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  11 JAN 2017 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  15 JAN 2017 21:06
 entering extended mode
 **"./S Durbridge Neg Tec Part Two TwentySixteen.tex"
 ("S Durbridge Neg Tec Part Two TwentySixteen.tex"
@@ -669,7 +669,7 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 File: overview_unity.jpg Graphic file (type jpg)
  <use overview_unity.jpg>
 Package pdftex.def Info: overview_unity.jpg used on input line 82.
-(pdftex.def)             Requested size: 313.69029pt x 307.22327pt.
+(pdftex.def)             Requested size: 209.12686pt x 204.80823pt.
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 82
 .
 
@@ -697,7 +697,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 ("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+
+Package Fancyhdr Warning: \footskip is too small (0.0pt): 
+ Make it at least 8.39996pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
 
 
 {C:/Users/Simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./overview_
@@ -708,7 +715,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 87.
+ne 89.
 
 ("S Durbridge Neg Tec Part Two TwentySixteen.toc"
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -725,39 +732,42 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 
 
-Package Fancyhdr Warning: \footskip is too small (0.0pt): 
- Make it at least 8.39996pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
-
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 95.
+ne 97.
 
 ("S Durbridge Neg Tec Part Two TwentySixteen.lof")
 \tf@lof=\write4
 \openout4 = `"S Durbridge Neg Tec Part Two TwentySixteen.lof"'.
 
- [3]
+ [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 114.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 116.
 
 
-LaTeX Warning: Citation `Durbridge2016b' on page 4 undefined on input line 114.
+LaTeX Warning: Citation `Durbridge2016b' on page 3 undefined on input line 116.
 
 
 
-LaTeX Warning: Citation `Begault1995' on page 4 undefined on input line 114.
+LaTeX Warning: Citation `Begault1995' on page 3 undefined on input line 116.
 
 
-LaTeX Warning: Citation `googlevr2016' on page 4 undefined on input line 121.
+LaTeX Warning: Citation `googlevr2016' on page 3 undefined on input line 125.
 
-[4] [5] [6] [7] [8] ("S Durbridge Neg Tec Part Two TwentySixteen.bbl"
+[3]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 164.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 164.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+[4] ("S Durbridge Neg Tec Part Two TwentySixteen.bbl"
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -766,28 +776,31 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-) [9] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
+
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+) [5] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7669 strings out of 493334
- 123611 string characters out of 3136241
- 275080 words of memory out of 3000000
- 11028 multiletter control sequences out of 15000+200000
- 87847 words of font info for 87 fonts, out of 3000000 for 9000
+ 7663 strings out of 493334
+ 123506 string characters out of 3136241
+ 274025 words of memory out of 3000000
+ 11021 multiletter control sequences out of 15000+200000
+ 91756 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,51p,8922b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\User
 s\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
 ><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><D:/MS
-C/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><D:/MSC/Resea
-rch Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (9 pages, 23
-2171 bytes).
+C/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
+Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (5 pages, 20
+8932 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

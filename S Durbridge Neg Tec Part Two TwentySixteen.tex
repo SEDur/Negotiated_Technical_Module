@@ -63,7 +63,7 @@
 \textsc{University of Derby, Department of Electronics, Mathematics \&\ Computing} \\ [25pt] % Your university, school and/or department name(s)
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{overview_unity.jpg}
+\includegraphics[width=0.5\textwidth]{overview_unity.jpg}
 \centering
 \caption{A screen-shot of the test interface design within unity, both in third person 'observer' and first person 'subject' views}
 \end{figure}
@@ -80,13 +80,15 @@
 
 \maketitle % Print the title
 
+\newpage
+
 %----------------------------------------------------------------------------------------
 %	Contents
 %----------------------------------------------------------------------------------------
 
 \tableofcontents
 
-\newpage
+%\newpage
 
 %----------------------------------------------------------------------------------------
 %	Figures
@@ -110,17 +112,21 @@
 
 \section{Introduction}
 
-As of the last few years a new wave of Virtual Reality(VR) technology has has become available, often utilising mobile devices as the playback medium. Along with development of the visual component of these VR systems, modern spatial audio techniques are often being used to create immersive '3 dimensional' sound experiences to match.
-In a previous report~\cite{Durbridge2016b}, details surrounding the localisation of sound sources within auditory scene were described. It was suggested that early reflection were a key component used in sound source localisation, and literature suggested that appropriate simulation techniques would be required for accurate sound source localization in VR~\cite{Begault1995}. 
+Over the last few years a new wave of Virtual Reality(VR) technology has has become available, often utilising mobile devices as the playback medium. Along with development of the visual component of these VR systems, spatial audio techniques beyond stereo panning and similar abstractions are often being used to create immersive '3 dimensional' sound experiences.
+In a previous report~\cite{Durbridge2016b}, faculties surrounding the localisation of sound sources within the auditory scene were described. It was suggested that early reflection were a key component used in sound source localisation, and literature suggested that appropriate simulation techniques would be required for accurate sound source localization in VR~\cite{Begault1995}. 
 
 
 \subsection{Research Question}
 
 Does the level of artificial diffuse reverberation have an impact on a listeners capacity to localise a sound source in a VR environment, with the use of a simple early reflection simulation method? When utilising a reverberation tool that combines direct reflection simulation and artificial diffuse reverberation, is it possible to counteract the effects of early reflections on localization accuracy by masking the direct reflections with an overly loud diffuse field?
 
-Null Hypothesis: Diffuse reverberation level has no impact on localization error in VR environments.
+Null Hypothesis: Diffuse reverberation level has no impact on sound source localization error in VR environments.
 
-The aim of this study is to determine if a tool that combines direct reflection, and diffuse reverberation simulation is appropriate from a sound source localisation perspective in VR applications. In this study the Google virtual reality software development kit (VRSDK)~\cite{googlevr2016} for Unity was used for development of the listening test environment. The VRSDK version used was 1.0, and the version of unity used was 5.4.2f2.
+The aim of this study is to determine if a tool that combines direct reflection and diffuse reverberation simulation, is appropriate from a sound source localisation perspective in VR applications. In this study the Google virtual reality software development kit (VRSDK)~\cite{googlevr2016} for Unity was used for development of the listening test environment. The VRSDK version used was 1.0, and the version of unity used was 5.4.2f2.
+
+\subsection{Report Overview}
+
+Initially the experiment method will be discussed, and the behaviour of the GVRSDK room reverb algorithm will be explored. Following this, the experiment protocol will be given. Next, cursory experiment data will be analysed, and finally the experimental method will be reviewed and improvements suggested.
 
 %Initially, the Google VRSDK will be introduced, and the reverberation engine will be evaluated. 
 %Following this, a listening test implementation using this VRSDK will be discussed. The results of a small preliminary test batch will be discussed, and finally some potential improvements to the method will be noted.
@@ -153,8 +159,11 @@ The aim of this study is to determine if a tool that combines direct reflection,
 \newpage
 
 %------------------------------------------------
-\section{Hypothosis}
-\subsection{Spatial Perception}
+\section{Experimental Method}
+
+In order to analyse the tools available for new VR systems, it was considered crucial to develop a test that incorporated such a tool with as little modification to the tool as possible. Time constraints were also a factor in realising such a test, as little prior mobile application development experience was directly available. Given such constraints, the Unity game engine system was chosen as a development platform. This was particularly beneficial as Unity has native Android and GVRSDK support~\footnote{Though due to instability, the most recent versions of Unity and GVRSDK were not used in the development of this experiment}.\\
+
+The VR environment the user would see would consist of a single ground plane, with an ancillary menu of simple functions such as Reset function, visual distortion correct and other functions relating to the visual system. The single ground plane would appear to stretch out significantly far, to provide limited bias to room size. The reset function would allow a user to skip to the next round of the test, if they could not find the sound source. Test scores for the previous round of the test are also displayed, so that those administering the test could record the results without having to access the phone.
 
 %Research into spatial audio for VR may have flourished in recent past, but the foundation of localization theory remains based on the concepts explored by Rayleigh in 1907~\cite{Blauert1997}. Continued research into the field has matured and evolved understanding of these concepts, and for an in-depth review of auditory localization please review Blauert~\cite{Blauert1997}. Localization is the term given to the human capacity to binaurally (with two ears) localize sounds, laterally in the plane of the ears and in the median plane (up and down). A sources perceived location is determined by interaural time differences (ITD), phase differences, interaural level differences(ILD), and the physical listening apparatus itself (pinnae, head shape, torso, head tilting etc).
 
@@ -211,12 +220,12 @@ The aim of this study is to determine if a tool that combines direct reflection,
 %For a discussion on different formats such as B, C, D, A and UHJ, please refer to Rumsey~\cite{rumsey2012spatial}. 
 %Perhaps the greatest benefit of the ambisonic system is that the encoding and decoding channel counts are not mutually exclusive i.e. it is possible to record a sound field in 3rd order using an appropriate sound-field microphone, and decode that signal for two channel headphone playback with the appropriate HRTFs~\cite{Jot1998} as could be used in a VR system~\cite{Collins2013}. This would allow for multiple virtual sound sources to be used to render a 3d sound field for an individual listener, and could be coupled with head tracking to create an auditory scene that changes as a listeners moves their head.\
 
-
-\newpage
+\subsection{Experiment Protocol}
+%\newpage
 %------------------------------------------------
-\section{Experimental Method and Results}
+%\section{Results}
 %---------------------------------------------
-\subsection{Reverberation}
+%\subsection{Reverberation}
 
 %The reverberant sound field is the steady-state of diffusely scattered sound energy in a space due to the reflection of that energy from boundaries to a high order. 
 %Specifically, the amplitude of these reflections are such as to balance in amplitude with the steady state (source - decay) of the acoustic system, at or beyond the critical distance from a source (a classic analogy is given by Everest)~\cite{Everest2009}. 
@@ -305,10 +314,6 @@ The aim of this study is to determine if a tool that combines direct reflection,
 %\caption{A diagram of the layout for Corey's listening test\cite{Corey2002}}
 %\end{figure}
 
-\newpage
-\subsection{Reverberation Algorithms}
-\subsubsection{filter based reverb}
-
 %A relatively simple electronic method of simulating reverberation is that derived by a feedback loop. An analogy of this system is that of a tape deck with a looped reel of tape~\cite{Begault1995}. A delay presented between the read and write heads of the tape deck, with the write head writing not only new signals to the tape but an attenuated version of the signal read by the read head producing a decaying echo. In the frequency domain, such a system presents a comb filtered response as a version of a signal is interfering with itself but staggered in time.\\ 
 %When a series of these reverberation filters are cascaded together with varying delay times, it is possible to create a slightly metallic sounding reverb~\cite{Begault1995}. An improvement to this method is to add a single pole low pass filter to the delay block for simulating attenuation, and to add  a number of all-pass filters in series after the delays have been summed in order to reduce periodicity of the delay signal~\cite{Logan1961}.\\
 
@@ -336,8 +341,8 @@ The aim of this study is to determine if a tool that combines direct reflection,
 %Wave based modelling methods directly model spaces by calculating solutions to a discretized partial differential equation across the geometry~\cite{Botteldooren1995}~\cite{Bilbao2013}. For linear and room acoustics, the equation used is often the linearised Navier-Stokes or Euler diffusion style equations that satisfy the conservation laws. Depending on the solving scheme used, the geometry will need to be discretized to at least 2 points per wavelength (in line with Nyquist theorem) and potentially beyond 10 points\footnote{particularly for explicit finite different and finite element methods} per wavelength to satisfy the Courant condition~\cite{Siltanen2013}. The result is that problems become exponentially large and thus expensive to solve up to high frequencies. However, some methods such as the PTSD have been used to calculate up to low-mid frequencies in real time~\cite{Angus2010}~\cite{Savioja2010} and may in future become suitable to calculating low frequency portions of hybrid models in VR~\cite{Southern2012}.
 
 %----------------------------------------------------------------------------------------
-\newpage
-\section{Results Analysis and Evaluation}
+%\newpage
+\section{Results and Evaluation}
 \subsection{experiment aims}
 %The aim of subsequent research to this report, is to define how much of an impact the accuracy of reverberation synthesis has on the perception of source localization in a VR application. Is there a direct correlation between the order of accuracy of a simulation, and test subjects capacity to localize sounds in the space? 
 %The core method behind this experiment is to determine if there is an average improvement in localization i.e. a reduction in localization blur, by comparing the change in error for a group of test subjects across varying stimulus and environments. Comparing group error for localizing sources per instance of 'large hall with speech with 3rd order early reflections' with the same of 5th order reflections, may give an idea of how well early reflections order can improve a subjects capacity to localize in that environment. The difference between this method and other examples, is that the VR system will allow subjects to turn and localize sources in the way best for them. Ideally, this should give for negligible localization error in all instances, and also discounts any effects from sources being in the cone of confusion of a subject.
@@ -369,7 +374,7 @@ The aim of this study is to determine if a tool that combines direct reflection,
 \newpage
 \section{References}
 
-\bibliography{mylibrary}{}
+\bibliography{mybib}{}
 \bibliographystyle{plain}
 
 \end{document}

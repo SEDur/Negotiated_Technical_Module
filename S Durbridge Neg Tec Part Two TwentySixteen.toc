@@ -3,11 +3,11 @@
 \contentsline {subsection}{\numberline {1.1}Research Question}{3}
 \contentsline {subsection}{\numberline {1.2}Report Overview}{3}
 \contentsline {section}{\numberline {2}Experimental Method}{4}
-\contentsline {subsection}{\numberline {2.1}Google VR SDK Reverb Engine}{4}
-\contentsline {subsection}{\numberline {2.2}Experiment Protocol}{4}
-\contentsline {section}{\numberline {3}Results and Evaluation}{4}
-\contentsline {subsection}{\numberline {3.1}experiment aims}{4}
-\contentsline {subsection}{\numberline {3.2}experiment method}{4}
-\contentsline {section}{\numberline {4}Experiment Review}{4}
-\contentsline {section}{\numberline {5}Conclusion}{4}
-\contentsline {section}{\numberline {6}References}{5}
+\contentsline {subsection}{\numberline {2.1}Google VR SDK Reverb Engine}{5}
+\contentsline {subsection}{\numberline {2.2}Experiment Protocol}{6}
+\contentsline {section}{\numberline {3}Results and Evaluation}{6}
+\contentsline {subsection}{\numberline {3.1}Results}{6}
+\contentsline {subsection}{\numberline {3.2}Evaluation}{6}
+\contentsline {section}{\numberline {4}Experiment Review}{6}
+\contentsline {section}{\numberline {5}Conclusion}{6}
+\contentsline {section}{\numberline {6}References}{7}

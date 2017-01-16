@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  15 JAN 2017 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.10)  16 JAN 2017 22:16
 entering extended mode
 **"./S Durbridge Neg Tec Part Two TwentySixteen.tex"
 ("S Durbridge Neg Tec Part Two TwentySixteen.tex"
@@ -759,15 +759,33 @@ LaTeX Warning: Citation `googlevr2016' on page 3 undefined on input line 125.
 
 [3]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 164.
+(Font)              scaled to size 6.25598pt on input line 137.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 164.
+(Font)              scaled to size 6.25598pt on input line 137.
+ <dispersion-pattern.JPG, id=15, 621.82312pt x 316.93407pt>
+File: dispersion-pattern.JPG Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+<use dispersion-pattern.JPG>
+Package pdftex.def Info: dispersion-pattern.JPG used on input line 145.
+(pdftex.def)             Requested size: 292.77632pt x 149.225pt.
+ [4 <./dispersion-pattern.JPG>]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 155
+.
 
- []
+(C:\Users\Simon\AppData\Roaming\MiKTeX\2.9\tex\latex\fourier\ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+)
+<ir6m12m.jpg, id=21, 1824.8175pt x 900.36375pt>
+File: ir6m12m.jpg Graphic file (type jpg)
+ <use ir6m12m.jpg>
+Package pdftex.def Info: ir6m12m.jpg used on input line 165.
+(pdftex.def)             Requested size: 418.25372pt x 206.3649pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 172.
 
-[4] ("S Durbridge Neg Tec Part Two TwentySixteen.bbl"
+
+("D:\MSC\Research Methose\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [5 <./ir6m12m.jpg>] [6] ("S Durbridge Neg Tec Part Two TwentySixteen.bbl"
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -780,27 +798,30 @@ ne 1.
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 3.
 
-) [5] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
+) [7] ("S Durbridge Neg Tec Part Two TwentySixteen.aux")
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7663 strings out of 493334
- 123506 string characters out of 3136241
- 274025 words of memory out of 3000000
- 11021 multiletter control sequences out of 15000+200000
- 91756 words of font info for 96 fonts, out of 3000000 for 9000
+ 7728 strings out of 493334
+ 124864 string characters out of 3136241
+ 276025 words of memory out of 3000000
+ 11069 multiletter control sequences out of 15000+200000
+ 93909 words of font info for 104 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,10n,51p,8922b,471s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\User
-s\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1000.pk
-><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><D:/MS
-C/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (5 pages, 20
-8932 bytes).
+ <C:\Users\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt0800.pk>{D:/MSC/Research Methose/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc
+} <C:\Users\Simon\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+csx1000.pk><C:/Users/Simon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fourie
+r/fourier-ms.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/p
+utb8a.pfb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.p
+fb><D:/MSC/Research Methose/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on "S Durbridge Neg Tec Part Two TwentySixteen.pdf" (7 pages, 40
+9716 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 111 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

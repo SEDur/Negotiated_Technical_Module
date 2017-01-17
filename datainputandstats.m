@@ -14,5 +14,17 @@ errors3 = [12.9,9.2,19.4,14.3,17.6,24.8,16.3,4.8,16.4,5.4,11.2,3.7,4.4,16.3,9.2]
 levels4 = [0,-5.3,1.2,0.8,1.6,2.9,-5.8, -2.4, -0.07, 2.0, -2.2, -5, -2.4, -2.1, -1];
 errors4 = [17.3,2.7,17.6,19,13.3,21.1,12.2,1.9,5.4, 7.9, 2.5, 11.1, 7.9, 8.5, 7.1];
 
-levels5 = [];
-errors5 = [];
+levels5 = [0, 1.5 , -2.2 , -2.4 ,-5.1 , -1.0 , -4.4 , -3.5 , -1, -1.6, -5.9, 1.4, -3.0, 0.0 , 0.3];
+errors5 = [9.8, 6.7, 4.0, 9.9, 9.2, 13.2, 9.5, 8.4, 10.9, 9.7, 0.9, 6.0, 4.8, 3.7, 3.4  ];
+
+terrors = [errors; errors2; errors3; errors4; errors5];
+figure();
+scatter( levels, errors);
+hold on;
+scatter( levels2, errors2);
+scatter( levels3, errors3);
+scatter( levels4, errors4);
+scatter( levels5, errors5);
+legend('sample1', 'sample 2', 'sample 3', 'sample 4', 'sample 5');
+figure();
+boxplot(terrors,'notch','on');

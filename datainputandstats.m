@@ -24,8 +24,8 @@ errors6 = [13.2, 10.39, 10.9, 13.89, 6.8, 5.9, 5.35, 0.599, 8.5, 2.0, 12, 3.9, 2
 levels7 = [0, -0.5, 2.3, -1.2 0.6, -3.7, -1.5, 1.7, -4.9, -5.5, 0.29, 0.6, -1.9, -1, -3.9];
 errors7 = [3.1, 13.3, 8.4, 6.2, 6.2, 1.23, 5.5, 2.9, 8.8, 16.76, 1.5, 4.4, 5.3, 10.2, 9.8];
 
-levels8 = [];
-errors8 = [];
+levels8 = [0,];
+errors8 = [19.1,];
 
 somedata = [levels, levels2, levels3, levels4, levels5, levels6, levels7; errors, errors2, errors3, errors4, errors5, errors6, errors7];
 

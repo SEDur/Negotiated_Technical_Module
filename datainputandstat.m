@@ -3,11 +3,8 @@ close all;
 set = [1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3];
 rep = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
 
-<<<<<<< HEAD
-levels = [0,2.37,-4,0.4,-5,1.4,0.5,-1,0.4,-5.6,1.2,-2.3,2.7,0.2,0.7];
-=======
+
 levels = [0,2.37,-4,0.4,-5, 1.4,0.5,-1,0.4,-5.6,1.2,-2.3,2.7,0.2,0.7];
->>>>>>> origin/master
 errors = [7.01, 3.1, 7.6, 8.5, 1.2, 19.9, 6.3, 4.4, 14.2, 1.3, 6.9, 3.2, 10, 8.1, 7.3];
 
 levels2 = [0, -4, 1.99, -1.7, -4.05, -5.3, -0.2, 0.8, -1.9, -3.2, -0.1, -0.11, 1.91, -0.7, 0.55];
@@ -124,19 +121,18 @@ scatter( levels2, errors2);
 scatter( levels3, errors3);
 scatter( levels4, errors4);
 scatter( levels5, errors5);
-<<<<<<< HEAD
+
 legend('sample1', 'sample 2', 'sample 3', 'sample 4', 'sample 5');
 ylabel('Localisation Error (degrees)');
 xlabel('Diffuse Reverb Gain (dB)');
 grid('on')
 
-=======
+
 scatter( levels6, errors6);
 scatter( levels7, errors7);
 legend('sample1', 'sample 2', 'sample 3', 'sample 4', 'sample 5', 'sample6', 'sample7');
 title('raw scatter');
-hold off;
->>>>>>> origin/master
+
 figure();
 
 scatter( errors, levels);
